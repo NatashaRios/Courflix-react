@@ -5,12 +5,12 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import App from './pages/App';
-import Series from './pages/Series';
+import SeriesyPeliculas from './pages/SeriesyPeliculas';
 
 ReactDOM.render(
   <Router>
     <Route exact path="/" component={App} />
-    <Route exact path="/series" component={Series} />
+    <Route exact path="/seriesypeliculas:seriesypeliculas" component={SeriesyPeliculas} />
   </Router>,
   document.getElementById('root')
 );

@@ -1,0 +1,648 @@
+[
+  {
+    "series": {
+      "serie1": {
+        "id": 1,
+        "imgCarousel": "https://i.postimg.cc/B6y9rDY9/anne-With-An-E.jpg",
+        "imgPortada": "https://i.postimg.cc/D0LjxY8D/anne-With-An-EPortada.jpg",
+        "title": "Anne with an E",
+        "desc": "Una huerfanita con una imaginación sin escalas termina por error en la casa de una solterona y su hermano. Basada en la inolvidable novela.",
+        "temporada1":{
+          "cap1": {
+            "imgcap": "https://i.postimg.cc/bNH8Jm33/capitulo1.jpg",
+            "titlecap": "Su voluntad va a decidir su destino",
+            "descap": "La enérgica Anne Shirley llega por equivocación a Green Gables, donde los hermanos Matthew y Marilla Cuthbert esperan un niño."
+          },
+          "cap2": {
+            "imgcap": "https://i.postimg.cc/x1vk9Gz2/capitulo2.jpg",
+            "titlecap": "No soy un ave",
+            "descap": "Matthew está decidido a traer a Anne a casa, Marilla está muy preocupada, pero le cuesta expresar sus emociones."
+          },
+          "cap3": {
+            "imgcap": "https://i.postimg.cc/yWqdHW6x/capitulo3.jpg",
+            "titlecap": "¿Qué hay tan terco como la juventud?",
+            "descap": "Anne empieza la escuela en Avonlea y descubre que tiene mucho que aprender. Marilla hace un gran esfuerzo por asistir a una reunión de madres progresivas."
+          },
+          "cap4": {
+            "imgcap": "https://i.postimg.cc/TPknXjzP/capitulo4.jpg",
+            "titlecap": "Un escondido e innato tesoro",
+            "descap": "El consejo de un ministro religioso hace que Marilla dude de sus decisiones. Ante una tragedia, la inteligencia de Anne salva vidas...y su propia reputación."
+          },
+          "cap5": {
+            "imgcap": "https://i.postimg.cc/GmdD8Sr2/capitulo5.jpg",
+            "titlecap": "Una cuerda que vibra al mismo ritmo",
+            "descap": "Anne invita a Diana a tomar el primer té como adultas, pero el ambiente se vuelve un poco tóxico. Mathew tiene que hacer un mandado de suma importancia."
+          },
+          "cap6": {
+            "imgcap": "https://i.postimg.cc/Dw9tPsj8/capitulo6.jpg",
+            "titlecap": "El remordimiento es el veneno de la vida",
+            "descap": "Anne lima asperezas con los Barry cuando Minnie May se enferma de gravedad. Tras una pérdida conmovedora, Marilla rememora su pasado."
+          },
+          "cap7": {
+            "imgcap": "https://i.postimg.cc/y60XDR9L/capitulo7.jpg",
+            "titlecap": "Dondequiera que usted esté está mi casa",
+            "descap": "El futuro de Green Gables está en riesgo, y Anne y Marilla mueven montañas para salvar su casa mientras Mathew está confinado a la cama."
+          }
+        }
+      },
+      "series2": {
+        "id": 2,
+        "imgCarousel": "https://i.postimg.cc/XYrg7zgC/breaking-Bad.jpg",
+        "imgPortada": "https://i.postimg.cc/Gtpyg47y/breaking-Bad-Portada.jpg",
+        "title": "https://i.postimg.cc/28RqBXmW/logo-Breaking-Bad.png",
+        "desc": "Un profesor de Química de secundaria con cáncer terminal se asocia a una exestudiante para asegurar el futuro de su familia al fabricar y vender metanfetamina",
+        "temporada1": {
+          "cap1": {
+            "imgcap": "https://i.postimg.cc/nhdcTd80/capitulo1.jpg",
+            "titlecap": "Principio del fin",
+            "descap": "Un profesor de química de escuela secundaria recurre a la venta de drogas para mantener a su familia."
+          },
+          "cap2": {
+            "imgcap": "https://i.postimg.cc/Px1HGycG/capitulo2.jpg",
+            "titlecap": "El gato en la bolsa",
+            "descap": "Luego del fracaso de su primer negocio de drogas, Walt y Jesse deben deshacerse de dos cadáveres, Skyler sospecha que su marido no está involucrado en nada bueno."
+          },
+          "cap3": {
+            "imgcap": "https://i.postimg.cc/brF3mcTq/capitulo3.jpg",
+            "titlecap": "Y la bolsa en el río",
+            "descap": "Mientras Walt limpia el desorden que quedó tras su primer negocio de drogas piensa en decirle a Skyler la verdad sobre su enfermedad."
+          },
+          "cap4": {
+            "img": "https://i.postimg.cc/nLkKdfFN/capitulo4.jpg",
+            "titlecap": "Cáncer",
+            "descap": "Al ser forzado a contar la verdad acerca de su enfermedad, Walt enfrenta el problema de cómo pagar una serie de caros tratamientos contra el cáncer."
+          },
+          "cap5": {
+            "img": "https://i.postimg.cc/gc5VtDpc/capitulo5.jpg",
+            "titlecap": "Materia gris",
+            "descap": "Skyler organiza una intervención para convencer a Walt de que acepte la generosa oferta de su excompañero de investigaciones de pagar el tratamiento contra el cáncer."
+          },
+          "cap6":{
+            "img": "https://i.postimg.cc/nMbQF3Vv/capitulo6.jpg",
+            "titlecap": "Un loco puñado de nada",
+            "descap": "Los efectos secundarios y el costo del tratamiento crecen, y Walt exige que Jesse encuentre un revendedor para sus drogas, Jesse termina en problemas con un exconvicto."
+          },
+          "cap7": {
+            "imgcap": "https://i.postimg.cc/Dzj6v39L/capitulo7.jpg",
+            "titlecap": "Acuerdo no violento",
+            "descap": "Tras el encuentro cercano de Jesse con la muerte, Walt acepta producir más drogas para Tuco, mientras Skyler sospecha que su hermana robó un costoso regalo de bebés."
+          }
+        }
+      },
+      "serie3": {
+        "id": 3,
+        "imgCarousel": "https://i.postimg.cc/CKgCwLrR/elite.jpg",
+        "imgPortada": "https://i.postimg.cc/BbkDkq1Q/elite-Portada.jpg",
+        "title": "ÉLITE",
+        "desc": "Tres jóvenes de la clase obrera asisten a una de las escuelas privadas más exclusivas de España, donde el choque con los hijos de la élite acaba en una tragedia.",
+        "temporada1":{
+          "cap1": {
+            "imgcap": "https://i.postimg.cc/gJrDnc8m/capitulo1.jpg",
+            "titlecap": "Bienvenidos",
+            "descap": "Tras el colapso de una escuela pública, el constructor intenta subsanar el daño a su imagen con una beca a tres estudiantes para que asistan a una institución privada."
+          },
+          "cap2": {
+            "imgcap": "https://i.postimg.cc/B68TJYfv/capitulo2.jpg",
+            "titlecap": "Deseo",
+            "descap": "Un proyecto escolar hace que Marina y Samuel aproximen e inspira a Guzmán a intentar ganarse a Nadia, al mismo tiempo, Christian recibe información desconcertante."
+          },
+          "cap3": {
+            "imgcap": "https://i.postimg.cc/rFbLmz4F/capitulo3.jpg",
+            "titlecap": "Sábado noche",
+            "descap": "Samuel organiza una fiesta en la que Nano intenta algo con Marina que termina por afectar a más de una pareja. A Nadia la hiere lo que escucha sobre Guzmán."
+          },
+          "cap4": {
+            "imgcap": "https://i.postimg.cc/4ySjmFmF/capitulo4.jpg",
+            "titlecap": "El amor es una droga",
+            "descap": "Guzmán intenta hacer que Nadia lo perdone. Polo y Christian se acercan durante la gala. Lu chantajea a un profesor. Nano debe cumplir una misión para pagar su deuda."
+          },
+          "cap5": {
+            "imgcap": "https://i.postimg.cc/15VjvBgs/capitulo5.jpg",
+            "titlecap": "Todos mienten",
+            "descap": "Marina le da una alternativa a Nano para pagar su deuda. Lu revela un secreto frente a Nadia a propósito. Omar se entera de que Ander les contó a sus amigos sobre ellos."
+          },
+          "cap6": {
+            "imgcap": "https://i.postimg.cc/TYmXKfJV/capitulo6.jpg",
+            "titlecap": "Todo va a salir bien",
+            "descap": "Nano se da cuenta de que un reloj guarda un secreto. Descubren la hierba de Marina. Hay sospechas de un embarazo. Christian podría ser famoso a cambio de un favor."
+          },
+          "cap7": {
+            "imgcap": "https://i.postimg.cc/sX1ksr2Z/capitulo7.jpg",
+            "titlecap": "Todo estalla",
+            "descap": "Carla sospecha que Marina está involucrada en el robo. El padre de Omar hace planes para él. Guzmán busca vengarse tras descubrir el secreto de su hermana."
+          },
+          "cap8": {
+            "imgcap": "https://i.postimg.cc/Rh5Xy5Jm/capitulo8.jpg",
+            "titlecap": "Assilah",
+            "descap": "¿Qué pasó momentos antes del asesinato? Christian toma una decisión difícil. La policia arresta a un sospechoso. La pena vuelve descuidado a Guzmán."
+          }
+        }
+      },
+      "serie4": {
+        "id": 4,
+        "imgCarousel": "https://i.postimg.cc/MZFR1fhk/friends.jpg",
+        "imgPortada": "https://i.postimg.cc/zf7Hvync/friends-Portada.jpg",
+        "title": "https://i.postimg.cc/YSzydBFW/logo-Friends.png",
+        "desc": "Son seis amigos treintañeros que viven en Nueva York. Juntos afrontan con humor las dificultades propias de su edad: líos amorosos, trabajo, familia y su propia convivencia.",
+        "temporada1": {
+          "cap1": {
+            "imgcap": "https://i.postimg.cc/bwF8YbrJ/capitulo1.jpg",
+            "titlecap": "Estreno",
+            "descap": "Rachel huye de su boda y se reúne con los amigos en la cafetería. Ross está deprimido por su divorcio, pero sigue enamorado de Rachel."
+          },
+          "cap2": {
+            "imgcap": "https://i.postimg.cc/T3DMGPLM/capitulo2.jpg",
+            "titlecap": "Donde el ultrasonido llega",
+            "descap": "La exesposa lesbiana de Ross está embarazada de él, pero no coinciden en la elección del apellido del bebé."
+          },
+          "cap3": {
+            "imgcap": "https://i.postimg.cc/hjKH9bCc/capitulo3.jpg",
+            "titlecap": "Uno con el pulgar",
+            "descap": "Una compañía de refrescos le ofrece a Phoebe $7.000 después de que encuentra un pulgar mutilado en una lata de bebida."
+          },
+          "cap4": {
+            "imgcap": "https://i.postimg.cc/3JkzCwZ4/capitulo4.jpg",
+            "titlecap": "El de George Stephanopoulos",
+            "descap": "Un repartidor trae por accidente una pizza que era para George Stephanopolus, que vive justo frente al departamento de las chicas."
+          },
+          "cap5": {
+            "imgcap": "https://i.postimg.cc/GtHgQMvw/capitulo5.jpg",
+            "titlecap": "Uno con el detergente de lavandería de Alemania del Este",
+            "descap": "Ross ayuda a Rachel a lavar la ropa y considera velada como una primera cita. Joey hace que Monica se haga pasar por su nueva novia."
+          },
+          "cap6": {
+            "imgcap": "https://i.postimg.cc/nry21nHB/capitulo6.jpg",
+            "titlecap": "El hombre del trasero",
+            "descap": "Joey consigue su gran oportunidad en el cine cuando lo contratan como doble de riesgo del trasero de Al Pacino."
+          },
+          "cap7": {
+            "imgcap": "https://i.postimg.cc/XJXtH70z/capitulo7.jpg",
+            "titlecap": "El apagón",
+            "descap": "Durante un apagón queda afectada toda la ciudad, Ross intenta confesarle sus sentimientos a Rachel."
+          },
+          "cap8": {
+            "imgcap": "https://i.postimg.cc/7YSdQWpw/capitulo8.jpg",
+            "titlecap": "Donde nani muere dos veces",
+            "descap": "Monica y Ross están de luto por el fallecimiento de su abuela. Chandler se cuestiona su sexualidad."
+          },
+          "cap9": {
+            "imgcap": "https://i.postimg.cc/43HzBrS1/capitulo9.jpg",
+            "titlecap": "Día de Acción de Gracias",
+            "descap": "La primera cena de Acción de Gracias que Monica prepara para el grupo se quema cuando todos corren a la terraza para ver el globo que se escapó del desfile."
+          },
+          "cap10": {
+            "imgcap": "https://i.postimg.cc/Rh4KCqVP/capitulo10.jpg",
+            "titlecap": "Uno con el mono",
+            "descap": "El grupo hace un pacto para celebrar Año Nuevo sin citas, pero termina rompiéndolo. El solitario Ross encuentra un compañero de cuarto: un mono llamado Marcel."
+          },
+          "cap11": {
+            "imgcap": "https://i.postimg.cc/5N9LZHry/capitulo11.jpg",
+            "titlecap": "Uno con la Sra. Bing",
+            "descap": "Cuando la madre de Chandler, escritora de novelas románticas, viaja a Nueva York para visitarlo, Joey la descubre besándose con Ross."
+          },
+          "cap12": {
+            "imgcap": "https://i.postimg.cc/8Cv6hL7K/capitulo12.jpg",
+            "titlecap": "Las doce lasagnas",
+            "descap": "Monica le entrega a Paolo una de las doce lasañas que preparó para su tía, quien ya no las quiere proque tiene carne."
+          },
+          "cap13": {
+            "imgcap": "https://i.postimg.cc/SsyxJ9Cz/capitulo13.jpg",
+            "titlecap": "Hablemos de senos",
+            "descap": "Chandler ve a Rachel por accidente paseándose sin corpiño después de ducharse, por lo que Rachel va a intentar cobrarse la deuda."
+          },
+          "cap14": {
+            "imgcap": "https://i.postimg.cc/Qt0x5MJY/capitulo14.jpg",
+            "titlecap": "Corazones de dulce",
+            "descap": "Joey organiza una cita entre Chandler y Janice, y Ross se encuentra con Carol y Susan en una cita de San Valentín"
+          },
+          "cap15": {
+            "imgcap": "https://i.postimg.cc/J0Fr6dgb/capitulo15.jpg",
+            "titlecap": "El intoxicado",
+            "descap": "Monica cocina un plato gourmet para el dueño de un restaurante que busca un nuevo chef, pero, lamentablemente, él está muy drogado para apreciarlo."
+          },
+          "cap16": {
+            "imgcap": "https://i.postimg.cc/nrrV1tdF/capitulo17.jpg",
+            "titlecap": "Primera de dos partes",
+            "descap": "Joey se enamora de la hermana gemela de Phoebe, por lo que Phoebe se siente dejada de lado. Ross asiste a un curso de parto psicoprofiláctico con Carol y Susan."
+          },
+          "cap17": {
+            "imgcap": "https://i.postimg.cc/rwMVhWZZ/capitulo17.jpg",
+            "titlecap": "Segunda de dos partes",
+            "descap": "Rachel se lesiona el tobillo, pero, como no tiene seguro, convence a Monica de intercambiar identidades para usar su cobertura médica."
+          },
+          "cap18": {
+            "imagcap": "https://i.postimg.cc/nrF2R37c/capitulo18.jpg",
+            "titlecap": "Jugando póquer",
+            "descap": "Rachel tiene una entrevista para el puesto de asistente de compras en Saks Fifth Avenue. Un juego de póquer no del todo amistoso enfrenta a hombres contra mujeres."
+          },
+          "cap19": {
+            "imgcap": "https://i.postimg.cc/zD70b1ZL/capitulo19.jpg",
+            "titlecap": "El dia que Marcel se fue",
+            "descap": "Los chicos buscan a Marcel, que escapó del departamento mientras Rachel estaba a cargo de cuidarlo."
+          },
+          "cap20": {
+            "imgcap": "https://i.postimg.cc/5Ntp8kbs/capitulo20.jpg",
+            "titlecap": "El cruel ortodoncista",
+            "descap": "Rachel y Barry comienzan a salir como pareja de nuevo, a pesar de que él está comprometido con Mindy, quien quiere que Rachel sea su madrina de boda."
+          },
+          "cap21": {
+            "imgcap": "https://i.postimg.cc/2SbwKbqv/capitulo21.jpg",
+            "titlecap": "La falsa Mónica",
+            "descap": "Tras sufrir el robo de su tarjeta de crédito, Monica decide atrapar al ladrón."
+          },
+          "cap22": {
+            "imgcap": "https://i.postimg.cc/8CLbT2mz/capitulo22.jpg",
+            "titlecap": "El extraño factor",
+            "descap": "Tras perder la virginidad con ella, el novio de Monica le confiesa que está en el último año de la secundaria. Phoebe trabaja temporalmente como secretaria de Chandler."
+          },
+          "cap23": {
+            "imgcap": "https://i.postimg.cc/RF9LhggQ/capitulo23.jpg",
+            "titlecap": "El del nacimiento",
+            "descap": "Carol entra en trabajo de parto mientras Ross, Phoebe y Susan quedan atrapados en un armario."
+          },
+          "cap24": {
+            "imgcap": "https://i.postimg.cc/wMj5c781/capitulo24.jpg",
+            "titlecap": "Rachel por fin se da cuenta",
+            "descap": "Durante la fiesta de cumpleaños de Rachel, Chandler revela por accidente que Ross sigue enamorado de ella."
+          }
+        }
+      },
+      "serie5": {
+        "id": 5,
+        "imgCarousel": "https://i.postimg.cc/13XmhPPD/girlboss.jpg",
+        "imgPortada": "https://i.postimg.cc/XYt0RCs0/girlboss-Portada.jpg",
+        "title": "GIRLBOSS",
+        "desc": "En esta comedia basada en en el best seller autobiográfico, la rebelde y quebrada Sophia creó su propio imperio online y aprendió a ser su jefa.",
+        "temporada1": {
+          "cap1": {
+            "imgcap": "https://i.postimg.cc/76tvNJGc/capitulo1.jpg",
+            "titlecap": "Sophia",
+            "descap": "La vida de Sophia va de mal en peor cuando se queda sin trabajo y recibe un aviso de desalojo, pero una tienda de segunda mano le da una idea."
+          },
+          "cap2": {
+            "imgcap": "https://i.postimg.cc/PJCgVf1q/capitulo2.jpg",
+            "titlecap": "La hernia",
+            "descap": "Sophia busca artículos vintage en una venta de bines, pero interrumpe su día cuando siente algo extraño en el cuerpo y termina en una clínica."
+          },
+          "cap3": {
+            "imgcap": "https://i.postimg.cc/Rh2jkrTL/capitulo3.jpg",
+            "titlecap": "Gracias, San Francisco",
+            "descap": "En busca de inspiración para el nombre de su tienda de eBay, Sophia recorre la ciudad junto a Shane..., pero no es una cita."
+          },
+          "cap4": {
+            "imgcap": "https://i.postimg.cc/qM3f8Rkb/capitulo4.jpg",
+            "titlecap": "Ladyshopper99",
+            "descap": "Cuando una novia enfurecida regresa un vestido, Sophia hace lo posible por arreglarlo antes de la boda y evitar una calificación negativa en eBay."
+          },
+          "cap5": {
+            "imgcap": "https://i.postimg.cc/SxFBVhRy/capitulo5.jpg",
+            "titlecap": "Top ocho",
+            "descap": "Después de pelear por su página de Myspace, Sophia reflexiona sobre su amistad con Annie y el desafortunado viaje a Coachella."
+          },
+          "cap6": {
+            "imgcap": "https://i.postimg.cc/FRR81FWx/capitulo6.jpg",
+            "titlecap": "Cinco por ciento",
+            "descap": "Shane y Sophia pasan la noche juntos antes de que él salga de gira. Tras recibir un seguro médico, ella contempla dejar el nuevo trabajo."
+          },
+          "cap7": {
+            "imgcap": "https://i.postimg.cc/hj5wmFNR/capitulo7.jpg",
+            "titlecap": "Pantalones largos",
+            "descap": "Nasty Gal se vuelve más popular, pero no todo el mundo está feliz...como la rival de ventas de Sophia que llega sin avisar a su departamento."
+          },
+          "cap8": {
+            "imgcap": "https://i.postimg.cc/8cfYBKVJ/capitulo8.jpg",
+            "titlecap": "El viaje",
+            "descap": "Sophia, Annie y Dax viajan a Los Ángeles para ver a Shane. Annie y Dax tienen una revelación después de una noche de fiesta."
+          },
+          "cap9": {
+            "imgcap": "https://i.postimg.cc/zXXscjSQ/capitulo9.jpg",
+            "titlecap": "Putís*mas gráficas de barras",
+            "descap": "Sophia necesita ayuda de su papá, y Dax prepara un plan de negocios para convencerlo. Sophia lleva a Shane al encuentro para aligerar el ánimo."
+          },
+          "cap10": {
+            "imgcap": "https://i.postimg.cc/Z5W1T5QF/capitulo10.jpg",
+            "titlecap": "Foro de moda vintage",
+            "descap": "Annie le pide a Sophia un trabajo remunerado y no le gusta la respuesta que recibe. Los miembros del foro de la moda vintage critican a Sophia."
+          },
+          "cap11": {
+            "imgcap": "https://i.postimg.cc/RZ22qz5r/capitulo11.jpg",
+            "titlecap": "Una basura",
+            "descap": "En las fiestas navideñas, Sophia estalla contra los cantores de villancicos, enfrenta a su némesis y visita a alguien importante de su pasado."
+          },
+          "cap12": {
+            "imgcap": "https://i.postimg.cc/JhJvkdMs/capitulo12.jpg",
+            "titlecap": "I'll Come Crashing",
+            "descap": "Sophia contrata a alguien para hacer el nuevo sitio de Nasty Gal. La relación con Shane pende de un hilo mientras él graba un demo con su banda."
+          },
+          "cap13": {
+            "imgcap": "https://i.postimg.cc/ydH5XX8v/capitulo13.jpg",
+            "titlecap": "El lanzamiento",
+            "descap": "Las viejas amistades de Sophia llegan a la fiesta de lanzamiento de Nasty Gal, pero ella no disfruta...solo piensa en la traición"
+          }
+        }
+      },
+      "serie6": {
+        "id": 6,
+        "imgCarousel": "https://i.postimg.cc/5N6Pzkmf/gossip-Girl.jpg",
+        "imgPortada": "https://i.postimg.cc/q7XQ0fpx/gossip-Girl-Portada.jpg",
+        "title": "GOSSIP GIRL",
+        "desc": "Un grupo de estudiantes privilegiados de Manhattan consiguen todo lo que se proponen. Hasta que un blogger anónimo se dedica a seguir cada paso que dan.",
+        "temporada1": {
+          "cap1": {
+            "imgcap": "https://i.postimg.cc/wBCtWMCW/capitulo1.jpg",
+            "titlecap": "Piloto",
+            "descap": "Los chicos ricos del barrio más elegante de Manhattan se enteran de que Serena van der Woodsen ha vuelto."
+          },
+          "cap2": {
+            "imgcap": "https://i.postimg.cc/4dpYjZZX/capitulo2.jpg",
+            "titlecap": "El almuerzo salvaje",
+            "descap": "La mejor amiga de Serena, Blair, se distancia de ella tras la fiesta escalandosa Besos en los Labios."
+          },
+          "cap3": {
+            "imgcap": "https://i.postimg.cc/D0FSTDyL/capitulo3.jpg",
+            "titlecap": "Hiedra venenosa",
+            "descap": "Blair da a conocer secretos vergonzosos de Serena"
+          },
+          "cap4": {
+            "imgcap": "https://i.postimg.cc/65W8bDPN/capitulo4.jpg",
+            "titlecap": "Malas noticias",
+            "descap": "A Blair le encanta que su madre la elija para ser el nuevo rostro de su colección de modas."
+          },
+          "cap5": {
+            "imgcap": "https://i.postimg.cc/NM2ncJPs/capitulo5.jpg",
+            "titlecap": "Rompiendo las reglas",
+            "descap": "Dan se prepara para causar una impresión imborrable en Serena en su primera cita oficial."
+          },
+          "cap6": {
+            "imgcap": "https://i.postimg.cc/ncGPpQTD/capitulo6.jpg",
+            "titlecap": "El cuento de la doncella",
+            "descap": "Dan se debate entre dos amores cuando aparece una amiga de la niñez, Vanessa, y confiesa sus sentimientos por él."
+          },
+          "cap7": {
+            "imgcap": "https://i.postimg.cc/dVWNTPbQ/capitulo7.jpg",
+            "titlecap": "Victor, Victrola",
+            "descap": "Serena y Dan terminan por reconocer que, a pesar de las diferencias abismales entre sus respectivos mundos, ambos están locos el uno por el otro."
+          },
+          "cap8": {
+            "imgcap": "https://i.postimg.cc/MGvP73w7/capitulo8.jpg",
+            "titlecap": "Diecisiete velas",
+            "descap": "Blair festeja sus 17 años y trata de poner la mejor cara en la fiesta para esconder la verdad frente a sus amigos."
+          },
+          "cap9": {
+            "imgcap": "https://i.postimg.cc/Prv57TM9/capitulo9.jpg",
+            "titlecap": "Un interesante Día de Acción de Gracias.",
+            "descap": "Ingenuamente, Dan invita a Serena y a su familiar a pasar el Día de Acción de Gracias con la familia de él."
+          },
+          "cap10": {
+            "imgcap": "https://i.postimg.cc/Bv4ZtDGf/capitulo10.jpg",
+            "titlecap": "La alta sociedad",
+            "descap": "Serena se reúsa a asistir al Baile de Debutantes, pero su abuela CeCe no le permitirá faltar."
+          },
+          "cap11": {
+            "imgcap": "https://i.postimg.cc/fbCzdLwt/capitulo11.jpg",
+            "titlecap": "Fiestas navideñas",
+            "descap": "Blair no consigue ocultar su decepción cuando su padre viene a casa a pasar las fiestas con un huésped al que nadie esperaba."
+          },
+          "cap12": {
+            "imgcap": "https://i.postimg.cc/sxkszGJ8/capitulo12.jpg",
+            "titlecap": "Mentiras escolares",
+            "descap": "Los amigos se cuelan de noche en la pileta de la escuela y celebran una divertidisima fiesta improvisada."
+          },
+          "cap13": {
+            "imgcap": "https://i.postimg.cc/vBGvPPF2/capitulo13.jpg",
+            "titlecap": "La delgada línea que separa a Chuck y Nate",
+            "descap": "Gossip Girl se complace en informar que Serena van der Woodsen fue avistada comprando una prueba de embarazo, y la noticia se esparce como renguero de pólvora."
+          },
+          "cap14": {
+            "imgcap": "https://i.postimg.cc/SsVfHWmS/capitulo14.jpg",
+            "titlecap": "El proyecto de la bruja Blair",
+            "descap": "Blair vuelve al colegio donde ya no es más la abeja reina; Serena se resiste a vivir con Chuck, su futuro hermanastro."
+          },
+          "cap15": {
+            "imgcap": "https://i.postimg.cc/3NRFhdwg/capitulo15.jpg",
+            "titlecap": "Buscando desesperadamente a Serena",
+            "descap": "La antigua compinche de Serena, Georgina Sparks, regresa a Manhattan, donde todo serán problemas."
+          },
+          "cap16": {
+            "imgcap": "https://i.postimg.cc/fW2vKjH5/capitulo16.jpg",
+            "titlecap": "Todo sobre mi pasado",
+            "descap": "Blair y Jenny se ponen cada vez más agresivas en su guerra por la popularidad, calumniándose mutuamente con chismes tremendos a través de Gossip Girl."
+          },
+          "cap17": {
+            "imgcap": "https://i.postimg.cc/RVWLb6ym/capitulo17.jpg",
+            "titlecap": "Una mujer al límite",
+            "descap": "Georgina revela la verdadera razón por la que Serena huyó de Manhattan a un internado, y Serena cae rápidamente en sus viejos hábitos."
+          },
+          "cap18": {
+            "imagcap": "https://i.postimg.cc/7Ln3TgG3/capitulo18.jpg",
+            "titlecap": "Hago mucho de nada",
+            "descap": "Con la reputación de Serena en riesgo, Blair toma el toro por las astas para tratar con la manipuladora Georgina."
+          }
+        }
+      },
+      "serie7": {
+        "id": 7,
+        "imgCarousel": "https://i.postimg.cc/bvXRvrt1/merli.jpg",
+        "imgPortada": "https://i.postimg.cc/ZR4FrQjR/merli-Portada.jpg",
+        "title": "MERLÍ",
+        "desc": "Un profesor de filosofía inusual altera tanto a padres como colegas, enamora a otros e inspira a todos sus alumnos, incluido su hijo gay.",
+        "temporada1": {
+          "cap1": {
+            "imgcap": "https://i.postimg.cc/NfkyX0S1/capitulo1.jpg",
+            "titlecap": "Los peripatéticos",
+            "descap": "Recién llegado a la escuela, Merlí deja a una fuerte primera impresión en sus colegas y estudiantes, y entre ellos está Bruno, su hijo adolescente."
+          },
+          "cap2": {
+            "imgcap": "https://i.postimg.cc/BnZjB0fR/capitulo2.jpg",
+            "titlecap": "Platón",
+            "descap": "Merlí estimula a sus estudiantes a escribir poesía y, más tarde, visita la casa de Iván, un estudiante agorafóbico. Tánia convence a Bruno de que se abra con ella."
+          },
+          "cap3": {
+            "imgcap": "https://i.postimg.cc/R0Nq2LFR/capitulo3.jpg",
+            "titlecap": "Maquiavelo",
+            "descap": "Gerard se enamora a primera vista mientras que su madre visita a Merlí. Bruno piensa que Eugeni lo califica injustamente por su parantesco."
+          },
+          "cap4": {
+            "imgcap": "https://i.postimg.cc/DzHmh44K/capitulo4.jpg",
+            "titlecap": "Aristóteles",
+            "descap": "Durante una noche de estudio, Pol empieza a sospechar de Bruno, y luego Eugeni los acusa de hacer trampa en el examen, Joan hace una pregunta muy profunda a Merlí."
+          },
+          "cap5": {
+            "imgcap": "https://i.postimg.cc/sDPc27zy/capitulo5.jpg",
+            "titlecap": "Sócrates",
+            "descap": "El padre de Joan cree que Merlí le está lavando el cerebro a su hijo. Luego, Bruno intenta consolar a Tania tras una traición y Merlí obliga a Iván a salir del encierro."
+          },
+          "cap6": {
+            "imgcap": "https://i.postimg.cc/jSZ4HTCF/capitulo6.jpg",
+            "titlecap": "Schopenhauer",
+            "descap": "Berta se rebela en clase y Mónica invita a Gerard a ir a su casa para hacer la tarea. Por otro lado, Gina descubre que Merlí estuvo viendose con Laia."
+          },
+          "cap7": {
+            "imgcap": "https://i.postimg.cc/BvbcNzKQ/capitulo7.jpg",
+            "titlecap": "Foucault",
+            "descap": "Pol tiene problemas personales y financieros. Por su parte, Gerard encuentra evidencias de que su madre esconde un amante, y Joan se rebela contra sus padres."
+          },
+          "cap8": {
+            "imgcap": "https://postimg.cc/yJFSgcrW/5e508c8c",
+            "titlecap": "Guy Debord",
+            "descap": "Un video intimo de Mónica circula entre los estudiantes. En el museo, Marc ve a Merlí besándose. Iván se entera de que su madre tiene novio."
+          },
+          "cap9": {
+            "imgcap": "https://i.postimg.cc/tTmc2PT8/capitulo9.jpg",
+            "titlecap": "Epicuro",
+            "descap": "Los estudiantes organizan una fiesta de cumpleaños salvaje para Pol en la casa de Mónica, donde Joan hace una confesión por la borrachera y dos amigos dan un gran paso."
+          },
+          "cap10": {
+            "imgcap": "https://i.postimg.cc/dQgs0ZBW/capitulo10.jpg",
+            "titlecap": "Los escépticos",
+            "descap": "Surge un terrible conflicto en la familia de Joan; mientras tanto, Pol se distancia de Bruno y Gerard no acepta la relación de su madre con Merlí."
+          },
+          "cap11": {
+            "imgcap": "https://i.postimg.cc/GhYcT3gb/capitulo11.jpg",
+            "titlecap": "Los sofistas",
+            "descap": "Eugeni recibe una sorpresa desagradable, mientras que Pol debe hacerle de tutor a Iván, por su parte, descubre el talento oculto de Berta."
+          },
+          "cap12": {
+            "imgcap": "https://i.postimg.cc/dVYJ2Mgr/capitulo12.jpg",
+            "titlecap": "Hume",
+            "descap": "Joan se niega a participar en la colecta escolar organizada por sus padres, mientras que Oliver es ridiculizado y aislado por sus compañeros, incluido Bruno."
+          },
+          "cap13": {
+            "imgcap": "https://i.postimg.cc/FKFm6yrK/capitulo13.jpg",
+            "titlecap": "Nietzsche",
+            "descap": "Las clases de Merlí podrían terminar pronto y surgen protestas. Joan demuestra lo que siente por Mónica, mientras que Bruno se confiesa con Oliver. Iván sale adelante."
+          }
+        }
+      },
+      "serie8": {
+        "id": 8,
+        "imgCarousel": "https://i.postimg.cc/1t5tpxnJ/modern-Family.jpg",
+        "imgPortada": "https://i.postimg.cc/ZYQRyMTx/modern-Family-Portada.jpg",
+        "title": "modern family",
+        "desc": "Esta serie ganadora del Emmy sigue a Jay Pritchett y a su familia ecléctica mientras desafían los retos de la vida contemporánea en Los Ángeles.",
+        "temporada1": {
+          "cap1": {
+            "imgcap": "https://i.postimg.cc/vTKk0nPc/capitulo1.jpg",
+            "titlecap": "Piloto",
+            "descap": "Jay tiene hijos, nietos y una esposa joven con un niño. Juntos deben vencer las diferencias generacionales, culturales y sociales."
+          },
+          "cap2": {
+            "imgcap": "https://i.postimg.cc/1R7kRx9s/capitulo2.jpg",
+            "titlecap": "El ladrón de biciletas",
+            "descap": "Phil ayuda a probar que es lo suficientemente responsable para tener una nueva bici. Mientras tanto, Mitchell y Cameron llevan a Lily a la clase de Mi mamá y yo."
+          },
+          "cap3": {
+            "imgcap": "https://i.postimg.cc/c4KVrDHY/capitulo3.jpg",
+            "titlecap": "Ven a volar conmigo",
+            "descap": "Jay se lleva a Phil a volar su nuevo avión a escala, pero una de las maniobras sale mal. Mientras tanto, Claire sostiene una inesperada pláctica de hermanos con Manny."
+          },
+          "cap4": {
+            "imgcap": "https://i.postimg.cc/SNwH8W2P/capitulo4.jpg",
+            "titlecap": "El incidente",
+            "descap": "La mamá de Claire y Mitchell cae de sorpresa y está decidida a pedirles perdón a todos los que ofendió durante la boda de Jay y Gloria."
+          },
+          "cap5": {
+            "imgcap": "https://i.postimg.cc/BvdC7gsW/capitulo5.jpg",
+            "titlecap": "Cazacortinas",
+            "descap": "Jay y Gloria invitan a la familia a comer, pero un incidente en la escuela entre Manny y Luke tensa la relación de Gloria y Claire."
+          },
+          "cap6": {
+            "imgcap": "https://i.postimg.cc/Qt1J2TxF/capitulo6.jpg",
+            "titlecap": "Corre por tu esposa",
+            "descap": "Es el primer día de escuela y en la clase de los Dunphy, Phil malinterpreta cómo se siente Claire respecto a su nido vacío."
+          },
+          "cap7": {
+            "imgcap": "https://i.postimg.cc/Znmx45CV/capitulo7.jpg",
+            "titlecap": "En guardia",
+            "descap": "Toda la familia apoya el nuevo interés de Manny: esgrima. El entusiasmo de Jay abre una vieja herida de la infancia de Mitchell."
+          },
+          "cap8": {
+            "imgcap": "https://i.postimg.cc/BbCc6fFs/capitulo8.jpg",
+            "titlecap": "Grandes expectativas",
+            "descap": "Como Claire tiene una fama de dar regalos malos, esta vez está decidida a sorprender a Phil con un increíble: una presentación de uno de sus músicos favoritos."
+          },
+          "cap9": {
+            "imgcap": "https://i.postimg.cc/L4yJHsY5/capitulo9.jpg",
+            "titlecap": "Fizbo",
+            "descap": "Phil y Claire organizan la mejor fiesta cumpleaños para Luke. Cameron llega vestido de Fizbo y alguien termina en el hospital."
+          },
+          "cap10": {
+            "imgcap": "https://i.postimg.cc/bNssdjkT/capitulo10.jpg",
+            "titlecap": "Fuera adornos",
+            "descap": "Phil y Claire amenazan a sus hijos con quitarles la Navidad. Mitchell y Cameron llevan a Lily a su primera foto con Santa."
+          },
+          "cap11": {
+            "imgcap": "https://i.postimg.cc/bwnrHH6S/capitulo11.jpg",
+            "titlecap": "Desvelados",
+            "descap": "A Gloria no le hace gracia cómo reacciona Jay ante la llegada del irresponsable padre de Manny. Mientras tanto, Phil sufre por unas piedras en los riñones."
+          },
+          "cap12": {
+            "imgcap": "https://i.postimg.cc/FKQRPdqW/capitulo12.jpg",
+            "titlecap": "En mi caso no",
+            "descap": "Claire encuentra una foto subida de tono en la computadora y asume que es culpa de Luke. Phil, con remordimientos, no la desmiente."
+          },
+          "cap13": {
+            "imgcap": "https://i.postimg.cc/9XqfjBh8/capitulo13.jpg",
+            "titlecap": "Quince por ciento",
+            "descap": "Mitchel le mete la idea a Jay que uno de sus amigos, Shorty, es gay de clóset. Mientras, Gloria le hace un cambio de imagen a la niña con la que Manny sale."
+          },
+          "cap14": {
+            "imgcap": "https://i.postimg.cc/4xwf1L6d/capitulo14.jpg",
+            "titlecap": "Luz de luna",
+            "descap": "Claire se siente mal cuando su vieja amiga Valerie la visita y no resulta ser como Claire la recordaba. Mientras tanto, Jay pasa un momento perturbador en el vestidor del gimanasio."
+          },
+          "cap15": {
+            "imgcap": "https://i.postimg.cc/9MwcCcvR/capitulo15.jpg",
+            "titlecap": "Día de San Valenntín a la moda",
+            "descap": "Phil y Claire rompen con el tradicional festejo de San Valentín y planean una excursión que involucra un juego de roles. Las ideas de romance de Jay y Gloria chocan."
+          },
+          "cap16": {
+            "imgcap": "https://i.postimg.cc/C5ySKWgv/capitulo16.jpg",
+            "titlecap": "Miedos",
+            "descap": "Phil y Luke deciden hacer una expedición debajo de su casa. Mientras, Claire se lleva a Haley a que haga su examen de conducir."
+          },
+          "cap17": {
+            "imgcap": "https://i.postimg.cc/G2xqBD0Z/capitulo17.jpg",
+            "titlecap": "La verdad sea dicha",
+            "descap": "Phil invita a su novia de la prepa a la casa, pero la visita rápidamente se convierte en un problema. Jay mata a la tortuga de Manny sin"
+          },
+          "cap18": {
+            "imagcap": "https://i.postimg.cc/Wz988P18/capitulo18.jpg",
+            "titlecap": "Noche estrellada",
+            "descap": "Jay y Mitchell planean una de sus excursiones padre e hijo para ver una lluvia de meteoros, pero Mitchell se sorprende cuando descubre que Manny la acompañará."
+          },
+          "cap19": {
+            "imgcap": "https://i.postimg.cc/c1TF0fB3/capitulo19.jpg",
+            "titlecap": "Cambio de juego",
+            "descap": "El cumpleaños de Phil coincide con el lanzamiento de un nuevo producto. Lo único que quiere es ser de las primeras personas en tenerlo."
+          },
+          "cap20": {
+            "imgcap": "https://i.postimg.cc/fTLBLk8r/capitulo20.jpg",
+            "titlecap": "En la boca",
+            "descap": "Cuando el temperamental entrenador de basquetbol de Manny y Luke renuncia a la mitad del juego, tanto Jay como Phil intentarán suplirlo."
+          },
+          "cap21": {
+            "imgcap": "https://i.postimg.cc/nrkFw0y0/capitulo21.jpg",
+            "titlecap": "Viaje con Scout",
+            "descap": "La llegada del padre de Phil toma a Claire por sorpresa, y ella empieza a sospechar de que quizá haya gato encerrado."
+          },
+          "cap22": {
+            "imgcap": "https://i.postimg.cc/vHYH6wnj/capitulo22.jpg",
+            "titlecap": "Aeropuerto 2010",
+            "descap": "Gloria le regala de cumpleaños a Jay un viaje a Hawái. El pequeño detalle es que invitó a toda su familia."
+          }, 
+          "cap23": {
+            "imgcap": "https://i.postimg.cc/SxjSDLDf/capitulo23.jpg",
+            "titlecap": "Hawái",
+            "descap": "Jay espera con ansias relajarse en un paraíso tropical, pero un inesperado golpe de realidad le arruinará sus planes. Phil intenta que el viaje sea romántico para Claire."
+          },
+          "cap24": {
+            "imgcap": "https://i.postimg.cc/RZ8M83Y5/capitulo24.jpg",
+            "titlecap": "Retrato familiar",
+            "descap": "Claire hace planes para hacer un retrato familiar, pero parece que todo mundo está en su contra. Gloria y Manny van con Phil y Alex a un juego de Lakers."
+          }
+        }
+      }
+    }
+  }
+]

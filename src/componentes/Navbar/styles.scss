@@ -1,28 +1,29 @@
 .header{
   position: fixed;
-  background-color: rgba(7, 7, 7, 0.9);
+  background-color: rgba(7, 7, 7, 0.1);
   height: 4rem;
   width: 100%;
   display: flex;
   
   ;
   .img-courflix{
-    width: 7rem;
+    width: 8rem;
     margin: 1rem 1rem 1rem 3rem;
   }
   
     .navbar{
+      margin-left: 3rem;
     .navbar-ul{
       display: flex;
       
       .navbar-li {
         list-style: none;
         margin-left: 1rem;
+        margin-top: 1.2rem;
        
         .link-navbar {
           text-decoration: none;
           color: white;
-          margin-bottom: 2rem;
           font-size: 1.1em;
       
         }//link
