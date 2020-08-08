@@ -1,6 +1,90 @@
-.wrapper{
- 
+$ipadpro: 1024px;
+$ipad: 768px;
+$mobile: 480px;
+
+.wrapper-hero{
   background-size: cover;
   background-position: center;
+  max-width: 100vw;
   height: 40rem;
+  color: white;
+
+  @media screen and (max-width: $ipad) {
+    height: 30rem;
+  }
+
+  .title-hero{
+    width: 30rem;
+    font-weight: bold;
+    font-size: 4.5em;
+    margin: auto auto 2rem 6rem;
+    padding-top: 8rem;
+
+    @media screen and (max-width: $ipad) {
+      font-size: 1.7em;
+      margin: auto auto 1rem 2rem;
+      width: 15rem;
+    }
+  }
+
+  .hero-mobile{
+    display: none;
+    
+    margin: 0 0 2.5rem 1rem;
+
+    @media screen and (max-width: $ipad) {
+      display: inline-block;
+    }
+  }
+  .year-hero{
+    margin-left: 2rem;
+  }
+
+  .age-hero{
+    border: 1px solid white;
+    padding: 0.3rem;
+  }
+
+  .button-hero{
+    color: white;
+    font-size: 0.8em;
+    border-radius: 9px;
+    background-color: rgba(126, 121, 121, 0.6);
+    border: rgba(126, 121, 121, 0.6);
+    padding: 1.2rem 3rem 1.2rem 3rem;
+
+    &:hover {
+      background-color: rgba(243, 18, 18, 0.6);
+    }
+
+    @media screen and (max-width: $ipad) {
+      padding: 1rem 2.5rem 1rem 2.5rem;
+    }
+  }
+
+  .reproducir-hero{
+    margin-left: 7rem;
+
+    @media screen and (max-width: $ipad) {
+      margin-left: 1rem;
+    }
+  }
+
+  .lista-hero{
+    margin-left: 1.5rem;
+
+    @media screen and (max-width: $ipad) {
+      margin-left: 1rem;
+    }
+  }
+  .desc-hero{
+    width: 30rem;
+    margin: 1.5rem 0 0 6rem;
+    font-size: 1.3em;
+    line-height: 1.8rem;
+
+    @media screen and (max-width: $ipad) {
+      display: none;
+    }
+  }
 }

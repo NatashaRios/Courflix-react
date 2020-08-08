@@ -1,0 +1,39 @@
+$ipadpro: 1024px;
+$ipad: 768px;
+$mobile: 480px;
+
+.content-carousel{
+  color: white;
+  height: 8rem;
+
+  @media screen and (max-width: $mobile){
+    height: 8rem;
+  }
+
+  .title-carousel{
+    margin: 1.5rem 0 0.5rem 3rem;
+    font-size: 1.5em;
+    font-weight: bold;
+
+    @media screen and (max-width: $mobile){
+      font-size: 1em;
+      margin: 1rem 0 0 2rem;
+    }
+  }
+}
+
+.content-series{
+  margin-bottom: 10rem;
+  
+  @media screen and (max-width: $mobile){
+    margin-bottom: 4rem;
+  }
+}
+
+.content-agregado{
+  margin-top: 10rem;
+
+  @media screen and (max-width: $mobile){
+    margin-top: 4rem;
+  }
+}

@@ -1,648 +1,1243 @@
 [
   {
-    "series": {
-      "serie1": {
+    "portada": {
+      "img": "https://i.postimg.cc/qq83Gjh9/en-Busca-De-La-Felicidad-Portada.jpg",
+      "title": "En busca de la felicidad",
+      "desc": "Un papá soltero con problemas económicos intenta sacar a su familia adelante. Su esfuerzo le llevará a entender el verdadero significado de la felicidad.",
+      "year": "2006",
+      "age": "13+",
+      "time": "1h 57min"
+    }
+  },
+  {
+    "series": [
+      {
         "id": 1,
         "imgCarousel": "https://i.postimg.cc/B6y9rDY9/anne-With-An-E.jpg",
         "imgPortada": "https://i.postimg.cc/D0LjxY8D/anne-With-An-EPortada.jpg",
+        "imgMobile": "https://i.postimg.cc/NGb2XrmF/anne-With-An-EMobile.jpg",
         "title": "Anne with an E",
         "desc": "Una huerfanita con una imaginación sin escalas termina por error en la casa de una solterona y su hermano. Basada en la inolvidable novela.",
-        "temporada1":{
-          "cap1": {
+        "parati": "94% para ti",
+        "year": "2017",
+        "age": "13+",
+        "time": "3 temporadas",
+        "type": "serie",
+        "temporada1":[
+          {
             "imgcap": "https://i.postimg.cc/bNH8Jm33/capitulo1.jpg",
             "titlecap": "Su voluntad va a decidir su destino",
             "descap": "La enérgica Anne Shirley llega por equivocación a Green Gables, donde los hermanos Matthew y Marilla Cuthbert esperan un niño."
           },
-          "cap2": {
+          {
             "imgcap": "https://i.postimg.cc/x1vk9Gz2/capitulo2.jpg",
             "titlecap": "No soy un ave",
             "descap": "Matthew está decidido a traer a Anne a casa, Marilla está muy preocupada, pero le cuesta expresar sus emociones."
           },
-          "cap3": {
+          {
             "imgcap": "https://i.postimg.cc/yWqdHW6x/capitulo3.jpg",
             "titlecap": "¿Qué hay tan terco como la juventud?",
             "descap": "Anne empieza la escuela en Avonlea y descubre que tiene mucho que aprender. Marilla hace un gran esfuerzo por asistir a una reunión de madres progresivas."
           },
-          "cap4": {
+          {
             "imgcap": "https://i.postimg.cc/TPknXjzP/capitulo4.jpg",
             "titlecap": "Un escondido e innato tesoro",
             "descap": "El consejo de un ministro religioso hace que Marilla dude de sus decisiones. Ante una tragedia, la inteligencia de Anne salva vidas...y su propia reputación."
           },
-          "cap5": {
+          {
             "imgcap": "https://i.postimg.cc/GmdD8Sr2/capitulo5.jpg",
             "titlecap": "Una cuerda que vibra al mismo ritmo",
             "descap": "Anne invita a Diana a tomar el primer té como adultas, pero el ambiente se vuelve un poco tóxico. Mathew tiene que hacer un mandado de suma importancia."
           },
-          "cap6": {
+          {
             "imgcap": "https://i.postimg.cc/Dw9tPsj8/capitulo6.jpg",
             "titlecap": "El remordimiento es el veneno de la vida",
             "descap": "Anne lima asperezas con los Barry cuando Minnie May se enferma de gravedad. Tras una pérdida conmovedora, Marilla rememora su pasado."
           },
-          "cap7": {
+          {
             "imgcap": "https://i.postimg.cc/y60XDR9L/capitulo7.jpg",
             "titlecap": "Dondequiera que usted esté está mi casa",
             "descap": "El futuro de Green Gables está en riesgo, y Anne y Marilla mueven montañas para salvar su casa mientras Mathew está confinado a la cama."
           }
-        }
+        ]
       },
-      "series2": {
+
+       {
         "id": 2,
         "imgCarousel": "https://i.postimg.cc/XYrg7zgC/breaking-Bad.jpg",
         "imgPortada": "https://i.postimg.cc/Gtpyg47y/breaking-Bad-Portada.jpg",
+        "imgMobile": "https://i.postimg.cc/cJm0zfs8/breaking-Bad-Mobile.jpg",
         "title": "https://i.postimg.cc/28RqBXmW/logo-Breaking-Bad.png",
         "desc": "Un profesor de Química de secundaria con cáncer terminal se asocia a una exestudiante para asegurar el futuro de su familia al fabricar y vender metanfetamina",
-        "temporada1": {
-          "cap1": {
+        "parati": "80% para ti",
+        "year": "2008",
+        "age": "16+",
+        "time": "5 temporadas",
+        "type": "serie",
+        "temporada1": [
+          {
             "imgcap": "https://i.postimg.cc/nhdcTd80/capitulo1.jpg",
             "titlecap": "Principio del fin",
             "descap": "Un profesor de química de escuela secundaria recurre a la venta de drogas para mantener a su familia."
           },
-          "cap2": {
+          {
             "imgcap": "https://i.postimg.cc/Px1HGycG/capitulo2.jpg",
             "titlecap": "El gato en la bolsa",
             "descap": "Luego del fracaso de su primer negocio de drogas, Walt y Jesse deben deshacerse de dos cadáveres, Skyler sospecha que su marido no está involucrado en nada bueno."
           },
-          "cap3": {
+          {
             "imgcap": "https://i.postimg.cc/brF3mcTq/capitulo3.jpg",
             "titlecap": "Y la bolsa en el río",
             "descap": "Mientras Walt limpia el desorden que quedó tras su primer negocio de drogas piensa en decirle a Skyler la verdad sobre su enfermedad."
           },
-          "cap4": {
+          {
             "img": "https://i.postimg.cc/nLkKdfFN/capitulo4.jpg",
             "titlecap": "Cáncer",
             "descap": "Al ser forzado a contar la verdad acerca de su enfermedad, Walt enfrenta el problema de cómo pagar una serie de caros tratamientos contra el cáncer."
           },
-          "cap5": {
+          {
             "img": "https://i.postimg.cc/gc5VtDpc/capitulo5.jpg",
             "titlecap": "Materia gris",
             "descap": "Skyler organiza una intervención para convencer a Walt de que acepte la generosa oferta de su excompañero de investigaciones de pagar el tratamiento contra el cáncer."
           },
-          "cap6":{
+          {
             "img": "https://i.postimg.cc/nMbQF3Vv/capitulo6.jpg",
             "titlecap": "Un loco puñado de nada",
             "descap": "Los efectos secundarios y el costo del tratamiento crecen, y Walt exige que Jesse encuentre un revendedor para sus drogas, Jesse termina en problemas con un exconvicto."
           },
-          "cap7": {
+           {
             "imgcap": "https://i.postimg.cc/Dzj6v39L/capitulo7.jpg",
             "titlecap": "Acuerdo no violento",
             "descap": "Tras el encuentro cercano de Jesse con la muerte, Walt acepta producir más drogas para Tuco, mientras Skyler sospecha que su hermana robó un costoso regalo de bebés."
           }
-        }
+        ]
       },
-      "serie3": {
+    
+      {
         "id": 3,
         "imgCarousel": "https://i.postimg.cc/CKgCwLrR/elite.jpg",
         "imgPortada": "https://i.postimg.cc/BbkDkq1Q/elite-Portada.jpg",
+        "imgMobile": "https://i.postimg.cc/VsT12fc4/elite-Mobile.jpg",
         "title": "ÉLITE",
         "desc": "Tres jóvenes de la clase obrera asisten a una de las escuelas privadas más exclusivas de España, donde el choque con los hijos de la élite acaba en una tragedia.",
-        "temporada1":{
-          "cap1": {
+        "parati": "95% para ti",
+        "year": "2018",
+        "age": "16+",
+        "time": "3 temporadas",
+        "type": "serie",
+        "temporada1":[
+          {
             "imgcap": "https://i.postimg.cc/gJrDnc8m/capitulo1.jpg",
             "titlecap": "Bienvenidos",
             "descap": "Tras el colapso de una escuela pública, el constructor intenta subsanar el daño a su imagen con una beca a tres estudiantes para que asistan a una institución privada."
           },
-          "cap2": {
+          {
             "imgcap": "https://i.postimg.cc/B68TJYfv/capitulo2.jpg",
             "titlecap": "Deseo",
             "descap": "Un proyecto escolar hace que Marina y Samuel aproximen e inspira a Guzmán a intentar ganarse a Nadia, al mismo tiempo, Christian recibe información desconcertante."
           },
-          "cap3": {
+          {
             "imgcap": "https://i.postimg.cc/rFbLmz4F/capitulo3.jpg",
             "titlecap": "Sábado noche",
             "descap": "Samuel organiza una fiesta en la que Nano intenta algo con Marina que termina por afectar a más de una pareja. A Nadia la hiere lo que escucha sobre Guzmán."
           },
-          "cap4": {
+          {
             "imgcap": "https://i.postimg.cc/4ySjmFmF/capitulo4.jpg",
             "titlecap": "El amor es una droga",
             "descap": "Guzmán intenta hacer que Nadia lo perdone. Polo y Christian se acercan durante la gala. Lu chantajea a un profesor. Nano debe cumplir una misión para pagar su deuda."
           },
-          "cap5": {
+          {
             "imgcap": "https://i.postimg.cc/15VjvBgs/capitulo5.jpg",
             "titlecap": "Todos mienten",
             "descap": "Marina le da una alternativa a Nano para pagar su deuda. Lu revela un secreto frente a Nadia a propósito. Omar se entera de que Ander les contó a sus amigos sobre ellos."
           },
-          "cap6": {
+          {
             "imgcap": "https://i.postimg.cc/TYmXKfJV/capitulo6.jpg",
             "titlecap": "Todo va a salir bien",
             "descap": "Nano se da cuenta de que un reloj guarda un secreto. Descubren la hierba de Marina. Hay sospechas de un embarazo. Christian podría ser famoso a cambio de un favor."
           },
-          "cap7": {
+          {
             "imgcap": "https://i.postimg.cc/sX1ksr2Z/capitulo7.jpg",
             "titlecap": "Todo estalla",
             "descap": "Carla sospecha que Marina está involucrada en el robo. El padre de Omar hace planes para él. Guzmán busca vengarse tras descubrir el secreto de su hermana."
           },
-          "cap8": {
+          {
             "imgcap": "https://i.postimg.cc/Rh5Xy5Jm/capitulo8.jpg",
             "titlecap": "Assilah",
             "descap": "¿Qué pasó momentos antes del asesinato? Christian toma una decisión difícil. La policia arresta a un sospechoso. La pena vuelve descuidado a Guzmán."
           }
-        }
+        ]
       },
-      "serie4": {
+
+      {
         "id": 4,
         "imgCarousel": "https://i.postimg.cc/MZFR1fhk/friends.jpg",
         "imgPortada": "https://i.postimg.cc/zf7Hvync/friends-Portada.jpg",
+        "imgMobile": "https://i.postimg.cc/ZqR41C07/friends-Mobile.jpg",
         "title": "https://i.postimg.cc/YSzydBFW/logo-Friends.png",
         "desc": "Son seis amigos treintañeros que viven en Nueva York. Juntos afrontan con humor las dificultades propias de su edad: líos amorosos, trabajo, familia y su propia convivencia.",
-        "temporada1": {
-          "cap1": {
+        "parati": "87% para ti",
+        "year": "1994",
+        "age": "13+",
+        "time": "10 temporadas",
+        "type": "serie",
+        "temporada1": [
+          {
             "imgcap": "https://i.postimg.cc/bwF8YbrJ/capitulo1.jpg",
             "titlecap": "Estreno",
             "descap": "Rachel huye de su boda y se reúne con los amigos en la cafetería. Ross está deprimido por su divorcio, pero sigue enamorado de Rachel."
           },
-          "cap2": {
+          {
             "imgcap": "https://i.postimg.cc/T3DMGPLM/capitulo2.jpg",
             "titlecap": "Donde el ultrasonido llega",
             "descap": "La exesposa lesbiana de Ross está embarazada de él, pero no coinciden en la elección del apellido del bebé."
           },
-          "cap3": {
+          {
             "imgcap": "https://i.postimg.cc/hjKH9bCc/capitulo3.jpg",
             "titlecap": "Uno con el pulgar",
             "descap": "Una compañía de refrescos le ofrece a Phoebe $7.000 después de que encuentra un pulgar mutilado en una lata de bebida."
           },
-          "cap4": {
+          {
             "imgcap": "https://i.postimg.cc/3JkzCwZ4/capitulo4.jpg",
             "titlecap": "El de George Stephanopoulos",
             "descap": "Un repartidor trae por accidente una pizza que era para George Stephanopolus, que vive justo frente al departamento de las chicas."
           },
-          "cap5": {
+          {
             "imgcap": "https://i.postimg.cc/GtHgQMvw/capitulo5.jpg",
             "titlecap": "Uno con el detergente de lavandería de Alemania del Este",
             "descap": "Ross ayuda a Rachel a lavar la ropa y considera velada como una primera cita. Joey hace que Monica se haga pasar por su nueva novia."
           },
-          "cap6": {
+          {
             "imgcap": "https://i.postimg.cc/nry21nHB/capitulo6.jpg",
             "titlecap": "El hombre del trasero",
             "descap": "Joey consigue su gran oportunidad en el cine cuando lo contratan como doble de riesgo del trasero de Al Pacino."
           },
-          "cap7": {
+          {
             "imgcap": "https://i.postimg.cc/XJXtH70z/capitulo7.jpg",
             "titlecap": "El apagón",
             "descap": "Durante un apagón queda afectada toda la ciudad, Ross intenta confesarle sus sentimientos a Rachel."
           },
-          "cap8": {
+          {
             "imgcap": "https://i.postimg.cc/7YSdQWpw/capitulo8.jpg",
             "titlecap": "Donde nani muere dos veces",
             "descap": "Monica y Ross están de luto por el fallecimiento de su abuela. Chandler se cuestiona su sexualidad."
           },
-          "cap9": {
+          {
             "imgcap": "https://i.postimg.cc/43HzBrS1/capitulo9.jpg",
             "titlecap": "Día de Acción de Gracias",
             "descap": "La primera cena de Acción de Gracias que Monica prepara para el grupo se quema cuando todos corren a la terraza para ver el globo que se escapó del desfile."
           },
-          "cap10": {
+          {
             "imgcap": "https://i.postimg.cc/Rh4KCqVP/capitulo10.jpg",
             "titlecap": "Uno con el mono",
             "descap": "El grupo hace un pacto para celebrar Año Nuevo sin citas, pero termina rompiéndolo. El solitario Ross encuentra un compañero de cuarto: un mono llamado Marcel."
           },
-          "cap11": {
+          {
             "imgcap": "https://i.postimg.cc/5N9LZHry/capitulo11.jpg",
             "titlecap": "Uno con la Sra. Bing",
             "descap": "Cuando la madre de Chandler, escritora de novelas románticas, viaja a Nueva York para visitarlo, Joey la descubre besándose con Ross."
           },
-          "cap12": {
+          {
             "imgcap": "https://i.postimg.cc/8Cv6hL7K/capitulo12.jpg",
             "titlecap": "Las doce lasagnas",
             "descap": "Monica le entrega a Paolo una de las doce lasañas que preparó para su tía, quien ya no las quiere proque tiene carne."
           },
-          "cap13": {
+          {
             "imgcap": "https://i.postimg.cc/SsyxJ9Cz/capitulo13.jpg",
             "titlecap": "Hablemos de senos",
             "descap": "Chandler ve a Rachel por accidente paseándose sin corpiño después de ducharse, por lo que Rachel va a intentar cobrarse la deuda."
           },
-          "cap14": {
+          {
             "imgcap": "https://i.postimg.cc/Qt0x5MJY/capitulo14.jpg",
             "titlecap": "Corazones de dulce",
             "descap": "Joey organiza una cita entre Chandler y Janice, y Ross se encuentra con Carol y Susan en una cita de San Valentín"
           },
-          "cap15": {
+          {
             "imgcap": "https://i.postimg.cc/J0Fr6dgb/capitulo15.jpg",
             "titlecap": "El intoxicado",
             "descap": "Monica cocina un plato gourmet para el dueño de un restaurante que busca un nuevo chef, pero, lamentablemente, él está muy drogado para apreciarlo."
           },
-          "cap16": {
+          {
             "imgcap": "https://i.postimg.cc/nrrV1tdF/capitulo17.jpg",
             "titlecap": "Primera de dos partes",
             "descap": "Joey se enamora de la hermana gemela de Phoebe, por lo que Phoebe se siente dejada de lado. Ross asiste a un curso de parto psicoprofiláctico con Carol y Susan."
           },
-          "cap17": {
+          {
             "imgcap": "https://i.postimg.cc/rwMVhWZZ/capitulo17.jpg",
             "titlecap": "Segunda de dos partes",
             "descap": "Rachel se lesiona el tobillo, pero, como no tiene seguro, convence a Monica de intercambiar identidades para usar su cobertura médica."
           },
-          "cap18": {
+          {
             "imagcap": "https://i.postimg.cc/nrF2R37c/capitulo18.jpg",
             "titlecap": "Jugando póquer",
             "descap": "Rachel tiene una entrevista para el puesto de asistente de compras en Saks Fifth Avenue. Un juego de póquer no del todo amistoso enfrenta a hombres contra mujeres."
           },
-          "cap19": {
+          {
             "imgcap": "https://i.postimg.cc/zD70b1ZL/capitulo19.jpg",
             "titlecap": "El dia que Marcel se fue",
             "descap": "Los chicos buscan a Marcel, que escapó del departamento mientras Rachel estaba a cargo de cuidarlo."
           },
-          "cap20": {
+          {
             "imgcap": "https://i.postimg.cc/5Ntp8kbs/capitulo20.jpg",
             "titlecap": "El cruel ortodoncista",
             "descap": "Rachel y Barry comienzan a salir como pareja de nuevo, a pesar de que él está comprometido con Mindy, quien quiere que Rachel sea su madrina de boda."
           },
-          "cap21": {
+          {
             "imgcap": "https://i.postimg.cc/2SbwKbqv/capitulo21.jpg",
             "titlecap": "La falsa Mónica",
             "descap": "Tras sufrir el robo de su tarjeta de crédito, Monica decide atrapar al ladrón."
           },
-          "cap22": {
+          {
             "imgcap": "https://i.postimg.cc/8CLbT2mz/capitulo22.jpg",
             "titlecap": "El extraño factor",
             "descap": "Tras perder la virginidad con ella, el novio de Monica le confiesa que está en el último año de la secundaria. Phoebe trabaja temporalmente como secretaria de Chandler."
           },
-          "cap23": {
+          {
             "imgcap": "https://i.postimg.cc/RF9LhggQ/capitulo23.jpg",
             "titlecap": "El del nacimiento",
             "descap": "Carol entra en trabajo de parto mientras Ross, Phoebe y Susan quedan atrapados en un armario."
           },
-          "cap24": {
+          {
             "imgcap": "https://i.postimg.cc/wMj5c781/capitulo24.jpg",
             "titlecap": "Rachel por fin se da cuenta",
             "descap": "Durante la fiesta de cumpleaños de Rachel, Chandler revela por accidente que Ross sigue enamorado de ella."
           }
-        }
+        ]
       },
-      "serie5": {
+    
+      {
         "id": 5,
         "imgCarousel": "https://i.postimg.cc/13XmhPPD/girlboss.jpg",
         "imgPortada": "https://i.postimg.cc/XYt0RCs0/girlboss-Portada.jpg",
+        "imgMobile": "https://i.postimg.cc/26LmSMQn/girlboss-Mobile.jpg",
         "title": "GIRLBOSS",
         "desc": "En esta comedia basada en en el best seller autobiográfico, la rebelde y quebrada Sophia creó su propio imperio online y aprendió a ser su jefa.",
-        "temporada1": {
-          "cap1": {
+        "parati": "88% para ti",
+        "year": "2017",
+        "age": "16+",
+        "time": "1 temporada",
+        "type": "serie",
+        "temporada1": [
+          {
             "imgcap": "https://i.postimg.cc/76tvNJGc/capitulo1.jpg",
             "titlecap": "Sophia",
             "descap": "La vida de Sophia va de mal en peor cuando se queda sin trabajo y recibe un aviso de desalojo, pero una tienda de segunda mano le da una idea."
           },
-          "cap2": {
+          {
             "imgcap": "https://i.postimg.cc/PJCgVf1q/capitulo2.jpg",
             "titlecap": "La hernia",
             "descap": "Sophia busca artículos vintage en una venta de bines, pero interrumpe su día cuando siente algo extraño en el cuerpo y termina en una clínica."
           },
-          "cap3": {
+          {
             "imgcap": "https://i.postimg.cc/Rh2jkrTL/capitulo3.jpg",
             "titlecap": "Gracias, San Francisco",
             "descap": "En busca de inspiración para el nombre de su tienda de eBay, Sophia recorre la ciudad junto a Shane..., pero no es una cita."
           },
-          "cap4": {
+          {
             "imgcap": "https://i.postimg.cc/qM3f8Rkb/capitulo4.jpg",
             "titlecap": "Ladyshopper99",
             "descap": "Cuando una novia enfurecida regresa un vestido, Sophia hace lo posible por arreglarlo antes de la boda y evitar una calificación negativa en eBay."
           },
-          "cap5": {
+          {
             "imgcap": "https://i.postimg.cc/SxFBVhRy/capitulo5.jpg",
             "titlecap": "Top ocho",
             "descap": "Después de pelear por su página de Myspace, Sophia reflexiona sobre su amistad con Annie y el desafortunado viaje a Coachella."
           },
-          "cap6": {
+          {
             "imgcap": "https://i.postimg.cc/FRR81FWx/capitulo6.jpg",
             "titlecap": "Cinco por ciento",
             "descap": "Shane y Sophia pasan la noche juntos antes de que él salga de gira. Tras recibir un seguro médico, ella contempla dejar el nuevo trabajo."
           },
-          "cap7": {
+          {
             "imgcap": "https://i.postimg.cc/hj5wmFNR/capitulo7.jpg",
             "titlecap": "Pantalones largos",
             "descap": "Nasty Gal se vuelve más popular, pero no todo el mundo está feliz...como la rival de ventas de Sophia que llega sin avisar a su departamento."
           },
-          "cap8": {
+          {
             "imgcap": "https://i.postimg.cc/8cfYBKVJ/capitulo8.jpg",
             "titlecap": "El viaje",
             "descap": "Sophia, Annie y Dax viajan a Los Ángeles para ver a Shane. Annie y Dax tienen una revelación después de una noche de fiesta."
           },
-          "cap9": {
+          {
             "imgcap": "https://i.postimg.cc/zXXscjSQ/capitulo9.jpg",
             "titlecap": "Putís*mas gráficas de barras",
             "descap": "Sophia necesita ayuda de su papá, y Dax prepara un plan de negocios para convencerlo. Sophia lleva a Shane al encuentro para aligerar el ánimo."
           },
-          "cap10": {
+          {
             "imgcap": "https://i.postimg.cc/Z5W1T5QF/capitulo10.jpg",
             "titlecap": "Foro de moda vintage",
             "descap": "Annie le pide a Sophia un trabajo remunerado y no le gusta la respuesta que recibe. Los miembros del foro de la moda vintage critican a Sophia."
           },
-          "cap11": {
+          {
             "imgcap": "https://i.postimg.cc/RZ22qz5r/capitulo11.jpg",
             "titlecap": "Una basura",
             "descap": "En las fiestas navideñas, Sophia estalla contra los cantores de villancicos, enfrenta a su némesis y visita a alguien importante de su pasado."
           },
-          "cap12": {
+          {
             "imgcap": "https://i.postimg.cc/JhJvkdMs/capitulo12.jpg",
             "titlecap": "I'll Come Crashing",
             "descap": "Sophia contrata a alguien para hacer el nuevo sitio de Nasty Gal. La relación con Shane pende de un hilo mientras él graba un demo con su banda."
           },
-          "cap13": {
+          {
             "imgcap": "https://i.postimg.cc/ydH5XX8v/capitulo13.jpg",
             "titlecap": "El lanzamiento",
             "descap": "Las viejas amistades de Sophia llegan a la fiesta de lanzamiento de Nasty Gal, pero ella no disfruta...solo piensa en la traición"
           }
-        }
+        ]
       },
-      "serie6": {
+    
+      {
         "id": 6,
         "imgCarousel": "https://i.postimg.cc/5N6Pzkmf/gossip-Girl.jpg",
         "imgPortada": "https://i.postimg.cc/q7XQ0fpx/gossip-Girl-Portada.jpg",
+        "imgMobile": "https://i.postimg.cc/rs6T0jj3/gossip-Girl-Mobile.jpg",
         "title": "GOSSIP GIRL",
         "desc": "Un grupo de estudiantes privilegiados de Manhattan consiguen todo lo que se proponen. Hasta que un blogger anónimo se dedica a seguir cada paso que dan.",
-        "temporada1": {
-          "cap1": {
+        "parati": "97% para ti",
+        "year": "2007",
+        "age": "16+",
+        "time": "6 temporadas",
+        "type": "serie",
+        "temporada1": [
+          {
             "imgcap": "https://i.postimg.cc/wBCtWMCW/capitulo1.jpg",
             "titlecap": "Piloto",
             "descap": "Los chicos ricos del barrio más elegante de Manhattan se enteran de que Serena van der Woodsen ha vuelto."
           },
-          "cap2": {
+          {
             "imgcap": "https://i.postimg.cc/4dpYjZZX/capitulo2.jpg",
             "titlecap": "El almuerzo salvaje",
             "descap": "La mejor amiga de Serena, Blair, se distancia de ella tras la fiesta escalandosa Besos en los Labios."
           },
-          "cap3": {
+          {
             "imgcap": "https://i.postimg.cc/D0FSTDyL/capitulo3.jpg",
             "titlecap": "Hiedra venenosa",
             "descap": "Blair da a conocer secretos vergonzosos de Serena"
           },
-          "cap4": {
+          {
             "imgcap": "https://i.postimg.cc/65W8bDPN/capitulo4.jpg",
             "titlecap": "Malas noticias",
             "descap": "A Blair le encanta que su madre la elija para ser el nuevo rostro de su colección de modas."
           },
-          "cap5": {
+          {
             "imgcap": "https://i.postimg.cc/NM2ncJPs/capitulo5.jpg",
             "titlecap": "Rompiendo las reglas",
             "descap": "Dan se prepara para causar una impresión imborrable en Serena en su primera cita oficial."
           },
-          "cap6": {
+          {
             "imgcap": "https://i.postimg.cc/ncGPpQTD/capitulo6.jpg",
             "titlecap": "El cuento de la doncella",
             "descap": "Dan se debate entre dos amores cuando aparece una amiga de la niñez, Vanessa, y confiesa sus sentimientos por él."
           },
-          "cap7": {
+          {
             "imgcap": "https://i.postimg.cc/dVWNTPbQ/capitulo7.jpg",
             "titlecap": "Victor, Victrola",
             "descap": "Serena y Dan terminan por reconocer que, a pesar de las diferencias abismales entre sus respectivos mundos, ambos están locos el uno por el otro."
           },
-          "cap8": {
+          {
             "imgcap": "https://i.postimg.cc/MGvP73w7/capitulo8.jpg",
             "titlecap": "Diecisiete velas",
             "descap": "Blair festeja sus 17 años y trata de poner la mejor cara en la fiesta para esconder la verdad frente a sus amigos."
           },
-          "cap9": {
+          {
             "imgcap": "https://i.postimg.cc/Prv57TM9/capitulo9.jpg",
             "titlecap": "Un interesante Día de Acción de Gracias.",
             "descap": "Ingenuamente, Dan invita a Serena y a su familiar a pasar el Día de Acción de Gracias con la familia de él."
           },
-          "cap10": {
+          {
             "imgcap": "https://i.postimg.cc/Bv4ZtDGf/capitulo10.jpg",
             "titlecap": "La alta sociedad",
             "descap": "Serena se reúsa a asistir al Baile de Debutantes, pero su abuela CeCe no le permitirá faltar."
           },
-          "cap11": {
+          {
             "imgcap": "https://i.postimg.cc/fbCzdLwt/capitulo11.jpg",
             "titlecap": "Fiestas navideñas",
             "descap": "Blair no consigue ocultar su decepción cuando su padre viene a casa a pasar las fiestas con un huésped al que nadie esperaba."
           },
-          "cap12": {
+          {
             "imgcap": "https://i.postimg.cc/sxkszGJ8/capitulo12.jpg",
             "titlecap": "Mentiras escolares",
             "descap": "Los amigos se cuelan de noche en la pileta de la escuela y celebran una divertidisima fiesta improvisada."
           },
-          "cap13": {
+          {
             "imgcap": "https://i.postimg.cc/vBGvPPF2/capitulo13.jpg",
             "titlecap": "La delgada línea que separa a Chuck y Nate",
             "descap": "Gossip Girl se complace en informar que Serena van der Woodsen fue avistada comprando una prueba de embarazo, y la noticia se esparce como renguero de pólvora."
           },
-          "cap14": {
+          {
             "imgcap": "https://i.postimg.cc/SsVfHWmS/capitulo14.jpg",
             "titlecap": "El proyecto de la bruja Blair",
             "descap": "Blair vuelve al colegio donde ya no es más la abeja reina; Serena se resiste a vivir con Chuck, su futuro hermanastro."
           },
-          "cap15": {
+          {
             "imgcap": "https://i.postimg.cc/3NRFhdwg/capitulo15.jpg",
             "titlecap": "Buscando desesperadamente a Serena",
             "descap": "La antigua compinche de Serena, Georgina Sparks, regresa a Manhattan, donde todo serán problemas."
           },
-          "cap16": {
+          {
             "imgcap": "https://i.postimg.cc/fW2vKjH5/capitulo16.jpg",
             "titlecap": "Todo sobre mi pasado",
             "descap": "Blair y Jenny se ponen cada vez más agresivas en su guerra por la popularidad, calumniándose mutuamente con chismes tremendos a través de Gossip Girl."
           },
-          "cap17": {
+          {
             "imgcap": "https://i.postimg.cc/RVWLb6ym/capitulo17.jpg",
             "titlecap": "Una mujer al límite",
             "descap": "Georgina revela la verdadera razón por la que Serena huyó de Manhattan a un internado, y Serena cae rápidamente en sus viejos hábitos."
           },
-          "cap18": {
+          {
             "imagcap": "https://i.postimg.cc/7Ln3TgG3/capitulo18.jpg",
             "titlecap": "Hago mucho de nada",
             "descap": "Con la reputación de Serena en riesgo, Blair toma el toro por las astas para tratar con la manipuladora Georgina."
           }
-        }
+        ]
       },
-      "serie7": {
+    
+      {
         "id": 7,
         "imgCarousel": "https://i.postimg.cc/bvXRvrt1/merli.jpg",
         "imgPortada": "https://i.postimg.cc/ZR4FrQjR/merli-Portada.jpg",
+        "imgMobile": "https://i.postimg.cc/CMDSTyLg/merli-Mobile.jpg",
         "title": "MERLÍ",
         "desc": "Un profesor de filosofía inusual altera tanto a padres como colegas, enamora a otros e inspira a todos sus alumnos, incluido su hijo gay.",
-        "temporada1": {
-          "cap1": {
+        "parati": "93% para ti",
+        "year": "2015",
+        "age": "16+",
+        "time": "3 temporadas",
+        "type": "serie",
+        "temporada1": [
+          {
             "imgcap": "https://i.postimg.cc/NfkyX0S1/capitulo1.jpg",
             "titlecap": "Los peripatéticos",
             "descap": "Recién llegado a la escuela, Merlí deja a una fuerte primera impresión en sus colegas y estudiantes, y entre ellos está Bruno, su hijo adolescente."
           },
-          "cap2": {
+          {
             "imgcap": "https://i.postimg.cc/BnZjB0fR/capitulo2.jpg",
             "titlecap": "Platón",
             "descap": "Merlí estimula a sus estudiantes a escribir poesía y, más tarde, visita la casa de Iván, un estudiante agorafóbico. Tánia convence a Bruno de que se abra con ella."
           },
-          "cap3": {
+          {
             "imgcap": "https://i.postimg.cc/R0Nq2LFR/capitulo3.jpg",
             "titlecap": "Maquiavelo",
             "descap": "Gerard se enamora a primera vista mientras que su madre visita a Merlí. Bruno piensa que Eugeni lo califica injustamente por su parantesco."
           },
-          "cap4": {
+          {
             "imgcap": "https://i.postimg.cc/DzHmh44K/capitulo4.jpg",
             "titlecap": "Aristóteles",
             "descap": "Durante una noche de estudio, Pol empieza a sospechar de Bruno, y luego Eugeni los acusa de hacer trampa en el examen, Joan hace una pregunta muy profunda a Merlí."
           },
-          "cap5": {
+          {
             "imgcap": "https://i.postimg.cc/sDPc27zy/capitulo5.jpg",
             "titlecap": "Sócrates",
             "descap": "El padre de Joan cree que Merlí le está lavando el cerebro a su hijo. Luego, Bruno intenta consolar a Tania tras una traición y Merlí obliga a Iván a salir del encierro."
           },
-          "cap6": {
+          {
             "imgcap": "https://i.postimg.cc/jSZ4HTCF/capitulo6.jpg",
             "titlecap": "Schopenhauer",
             "descap": "Berta se rebela en clase y Mónica invita a Gerard a ir a su casa para hacer la tarea. Por otro lado, Gina descubre que Merlí estuvo viendose con Laia."
           },
-          "cap7": {
+          {
             "imgcap": "https://i.postimg.cc/BvbcNzKQ/capitulo7.jpg",
             "titlecap": "Foucault",
             "descap": "Pol tiene problemas personales y financieros. Por su parte, Gerard encuentra evidencias de que su madre esconde un amante, y Joan se rebela contra sus padres."
           },
-          "cap8": {
+          {
             "imgcap": "https://postimg.cc/yJFSgcrW/5e508c8c",
             "titlecap": "Guy Debord",
             "descap": "Un video intimo de Mónica circula entre los estudiantes. En el museo, Marc ve a Merlí besándose. Iván se entera de que su madre tiene novio."
           },
-          "cap9": {
+          {
             "imgcap": "https://i.postimg.cc/tTmc2PT8/capitulo9.jpg",
             "titlecap": "Epicuro",
             "descap": "Los estudiantes organizan una fiesta de cumpleaños salvaje para Pol en la casa de Mónica, donde Joan hace una confesión por la borrachera y dos amigos dan un gran paso."
           },
-          "cap10": {
+          {
             "imgcap": "https://i.postimg.cc/dQgs0ZBW/capitulo10.jpg",
             "titlecap": "Los escépticos",
             "descap": "Surge un terrible conflicto en la familia de Joan; mientras tanto, Pol se distancia de Bruno y Gerard no acepta la relación de su madre con Merlí."
           },
-          "cap11": {
+          {
             "imgcap": "https://i.postimg.cc/GhYcT3gb/capitulo11.jpg",
             "titlecap": "Los sofistas",
             "descap": "Eugeni recibe una sorpresa desagradable, mientras que Pol debe hacerle de tutor a Iván, por su parte, descubre el talento oculto de Berta."
           },
-          "cap12": {
+          {
             "imgcap": "https://i.postimg.cc/dVYJ2Mgr/capitulo12.jpg",
             "titlecap": "Hume",
             "descap": "Joan se niega a participar en la colecta escolar organizada por sus padres, mientras que Oliver es ridiculizado y aislado por sus compañeros, incluido Bruno."
           },
-          "cap13": {
+          {
             "imgcap": "https://i.postimg.cc/FKFm6yrK/capitulo13.jpg",
             "titlecap": "Nietzsche",
             "descap": "Las clases de Merlí podrían terminar pronto y surgen protestas. Joan demuestra lo que siente por Mónica, mientras que Bruno se confiesa con Oliver. Iván sale adelante."
           }
-        }
+        ]
       },
-      "serie8": {
+    
+      {
         "id": 8,
         "imgCarousel": "https://i.postimg.cc/1t5tpxnJ/modern-Family.jpg",
         "imgPortada": "https://i.postimg.cc/ZYQRyMTx/modern-Family-Portada.jpg",
+        "imgMobile": "https://i.postimg.cc/CKXTX735/modern-Family-Mobile.jpg",
         "title": "modern family",
         "desc": "Esta serie ganadora del Emmy sigue a Jay Pritchett y a su familia ecléctica mientras desafían los retos de la vida contemporánea en Los Ángeles.",
-        "temporada1": {
-          "cap1": {
+        "parati": "96% para ti",
+        "year": "2009",
+        "age": "13+",
+        "time": "10 temporadas",
+        "type": "serie",
+        "temporada1": [
+          {
             "imgcap": "https://i.postimg.cc/vTKk0nPc/capitulo1.jpg",
             "titlecap": "Piloto",
             "descap": "Jay tiene hijos, nietos y una esposa joven con un niño. Juntos deben vencer las diferencias generacionales, culturales y sociales."
           },
-          "cap2": {
+          {
             "imgcap": "https://i.postimg.cc/1R7kRx9s/capitulo2.jpg",
             "titlecap": "El ladrón de biciletas",
             "descap": "Phil ayuda a probar que es lo suficientemente responsable para tener una nueva bici. Mientras tanto, Mitchell y Cameron llevan a Lily a la clase de Mi mamá y yo."
           },
-          "cap3": {
+          {
             "imgcap": "https://i.postimg.cc/c4KVrDHY/capitulo3.jpg",
             "titlecap": "Ven a volar conmigo",
             "descap": "Jay se lleva a Phil a volar su nuevo avión a escala, pero una de las maniobras sale mal. Mientras tanto, Claire sostiene una inesperada pláctica de hermanos con Manny."
           },
-          "cap4": {
+          {
             "imgcap": "https://i.postimg.cc/SNwH8W2P/capitulo4.jpg",
             "titlecap": "El incidente",
             "descap": "La mamá de Claire y Mitchell cae de sorpresa y está decidida a pedirles perdón a todos los que ofendió durante la boda de Jay y Gloria."
           },
-          "cap5": {
+          {
             "imgcap": "https://i.postimg.cc/BvdC7gsW/capitulo5.jpg",
             "titlecap": "Cazacortinas",
             "descap": "Jay y Gloria invitan a la familia a comer, pero un incidente en la escuela entre Manny y Luke tensa la relación de Gloria y Claire."
           },
-          "cap6": {
+          {
             "imgcap": "https://i.postimg.cc/Qt1J2TxF/capitulo6.jpg",
             "titlecap": "Corre por tu esposa",
             "descap": "Es el primer día de escuela y en la clase de los Dunphy, Phil malinterpreta cómo se siente Claire respecto a su nido vacío."
           },
-          "cap7": {
+          {
             "imgcap": "https://i.postimg.cc/Znmx45CV/capitulo7.jpg",
             "titlecap": "En guardia",
             "descap": "Toda la familia apoya el nuevo interés de Manny: esgrima. El entusiasmo de Jay abre una vieja herida de la infancia de Mitchell."
           },
-          "cap8": {
+          {
             "imgcap": "https://i.postimg.cc/BbCc6fFs/capitulo8.jpg",
             "titlecap": "Grandes expectativas",
             "descap": "Como Claire tiene una fama de dar regalos malos, esta vez está decidida a sorprender a Phil con un increíble: una presentación de uno de sus músicos favoritos."
           },
-          "cap9": {
+          {
             "imgcap": "https://i.postimg.cc/L4yJHsY5/capitulo9.jpg",
             "titlecap": "Fizbo",
             "descap": "Phil y Claire organizan la mejor fiesta cumpleaños para Luke. Cameron llega vestido de Fizbo y alguien termina en el hospital."
           },
-          "cap10": {
+          {
             "imgcap": "https://i.postimg.cc/bNssdjkT/capitulo10.jpg",
             "titlecap": "Fuera adornos",
             "descap": "Phil y Claire amenazan a sus hijos con quitarles la Navidad. Mitchell y Cameron llevan a Lily a su primera foto con Santa."
           },
-          "cap11": {
+          {
             "imgcap": "https://i.postimg.cc/bwnrHH6S/capitulo11.jpg",
             "titlecap": "Desvelados",
             "descap": "A Gloria no le hace gracia cómo reacciona Jay ante la llegada del irresponsable padre de Manny. Mientras tanto, Phil sufre por unas piedras en los riñones."
           },
-          "cap12": {
+          {
             "imgcap": "https://i.postimg.cc/FKQRPdqW/capitulo12.jpg",
             "titlecap": "En mi caso no",
             "descap": "Claire encuentra una foto subida de tono en la computadora y asume que es culpa de Luke. Phil, con remordimientos, no la desmiente."
           },
-          "cap13": {
+          {
             "imgcap": "https://i.postimg.cc/9XqfjBh8/capitulo13.jpg",
             "titlecap": "Quince por ciento",
             "descap": "Mitchel le mete la idea a Jay que uno de sus amigos, Shorty, es gay de clóset. Mientras, Gloria le hace un cambio de imagen a la niña con la que Manny sale."
           },
-          "cap14": {
+          {
             "imgcap": "https://i.postimg.cc/4xwf1L6d/capitulo14.jpg",
             "titlecap": "Luz de luna",
             "descap": "Claire se siente mal cuando su vieja amiga Valerie la visita y no resulta ser como Claire la recordaba. Mientras tanto, Jay pasa un momento perturbador en el vestidor del gimanasio."
           },
-          "cap15": {
+          {
             "imgcap": "https://i.postimg.cc/9MwcCcvR/capitulo15.jpg",
             "titlecap": "Día de San Valenntín a la moda",
             "descap": "Phil y Claire rompen con el tradicional festejo de San Valentín y planean una excursión que involucra un juego de roles. Las ideas de romance de Jay y Gloria chocan."
           },
-          "cap16": {
+          {
             "imgcap": "https://i.postimg.cc/C5ySKWgv/capitulo16.jpg",
             "titlecap": "Miedos",
             "descap": "Phil y Luke deciden hacer una expedición debajo de su casa. Mientras, Claire se lleva a Haley a que haga su examen de conducir."
           },
-          "cap17": {
+          {
             "imgcap": "https://i.postimg.cc/G2xqBD0Z/capitulo17.jpg",
             "titlecap": "La verdad sea dicha",
             "descap": "Phil invita a su novia de la prepa a la casa, pero la visita rápidamente se convierte en un problema. Jay mata a la tortuga de Manny sin"
           },
-          "cap18": {
+          {
             "imagcap": "https://i.postimg.cc/Wz988P18/capitulo18.jpg",
             "titlecap": "Noche estrellada",
             "descap": "Jay y Mitchell planean una de sus excursiones padre e hijo para ver una lluvia de meteoros, pero Mitchell se sorprende cuando descubre que Manny la acompañará."
           },
-          "cap19": {
+          {
             "imgcap": "https://i.postimg.cc/c1TF0fB3/capitulo19.jpg",
             "titlecap": "Cambio de juego",
             "descap": "El cumpleaños de Phil coincide con el lanzamiento de un nuevo producto. Lo único que quiere es ser de las primeras personas en tenerlo."
           },
-          "cap20": {
+          {
             "imgcap": "https://i.postimg.cc/fTLBLk8r/capitulo20.jpg",
             "titlecap": "En la boca",
             "descap": "Cuando el temperamental entrenador de basquetbol de Manny y Luke renuncia a la mitad del juego, tanto Jay como Phil intentarán suplirlo."
           },
-          "cap21": {
+          {
             "imgcap": "https://i.postimg.cc/nrkFw0y0/capitulo21.jpg",
             "titlecap": "Viaje con Scout",
             "descap": "La llegada del padre de Phil toma a Claire por sorpresa, y ella empieza a sospechar de que quizá haya gato encerrado."
           },
-          "cap22": {
+          {
             "imgcap": "https://i.postimg.cc/vHYH6wnj/capitulo22.jpg",
             "titlecap": "Aeropuerto 2010",
             "descap": "Gloria le regala de cumpleaños a Jay un viaje a Hawái. El pequeño detalle es que invitó a toda su familia."
           }, 
-          "cap23": {
+          {
             "imgcap": "https://i.postimg.cc/SxjSDLDf/capitulo23.jpg",
             "titlecap": "Hawái",
             "descap": "Jay espera con ansias relajarse en un paraíso tropical, pero un inesperado golpe de realidad le arruinará sus planes. Phil intenta que el viaje sea romántico para Claire."
           },
-          "cap24": {
+          {
             "imgcap": "https://i.postimg.cc/RZ8M83Y5/capitulo24.jpg",
             "titlecap": "Retrato familiar",
             "descap": "Claire hace planes para hacer un retrato familiar, pero parece que todo mundo está en su contra. Gloria y Manny van con Phil y Alex a un juego de Lakers."
           }
-        }
+        ]
       }
-    }
+    ],
+    "agregadasRecientemente": [
+      {
+        "id": 9,
+        "imgCarousel": "https://i.postimg.cc/ncSmSTJ6/mi-Villano-Favorito.jpg",
+        "imgPortada": "https://i.postimg.cc/kXg8yzkQ/mi-Villano-Favorito-Portada.jpg",
+        "imgMobile": "https://i.postimg.cc/fWxnqxBW/mi-Villano-Favorito-Mobile.jpg",
+        "title": "Mi villano favorito 3",
+        "parati": "98% para ti",
+        "year": "2017",
+        "age": "7+",
+        "time": "1h 29min",
+        "desc": "Gru pierde su trabajo y sufre una crisis de identidad, hasta que se encuentra con alguien que podría ayudarlo a volver a ser él mismo: ¡Su hermano gemelo!",
+        "type": "movie"
+      },
+    
+      {
+        "id": 10,
+        "imgCarousel": "https://i.postimg.cc/gJMccSNp/buscandoa-Nemo.jpg",
+        "imgPortada": "https://i.postimg.cc/5y64XBRC/buscandoa-Nemo-Portada.jpg",
+        "imgMobile": "https://i.postimg.cc/26hJJDd9/buscando-ANemo-Mobile.jpg",
+        "title": "Buscando a Nemo",
+        "desc": "En esta apasionante aventura, dos valientes peces, Marlin y Dory, buscan exhaustivamente en su modo submarino al hijo perdido de Marlín, Nemo.",
+        "parati": "74% para ti",
+        "year": "2003",
+        "age": "7+",
+        "time": "1h 41min",
+        "type": "movie"
+      },
+  
+      {
+        "id": 11,
+        "imgCarousel": "https://i.postimg.cc/Dmk971kF/rick-morty.jpg",
+        "imgPortada": "https://i.postimg.cc/JhpCjyJc/rick-morty-Portada.jpg",
+        "imgMobile": "https://i.postimg.cc/VkvhwMBC/ricky-Morty-Mobile.jpg",
+        "title": "Rick y Morty",
+        "desc": "Rick es un brillante científico un tanto borracho que secuestra a su irritable nieto adolescente Morty para vivir aventurar en otros mundos y en dimensiones alternativas.",
+        "parati": "96% para ti",
+        "year": "2013",
+        "age": "16+",
+        "time": "4 temporadas",
+        "type": "serie",
+        "temporada1": [
+          {
+            "imgcap": "https://i.postimg.cc/cH5KkLqf/capitulo1.jpg",
+            "titlecap": "Buscando las semillas",
+            "descap": "Rick lleva a Morty a otra dimensión donde encuentran semillas de Mega Árbol; mientras tanto, Jerry y Beth discuten acerca de la influencia de Rick sobre su hijo"
+          },
+          {
+            "imgcap": "https://i.postimg.cc/k4Z4FY8c/capitulo2.jpg",
+            "titlecap": "Invasión canina",
+            "descap": "Rick diseña un aparato para que Snuffles sea más inteligente, pero resulta mal. Rick y Morty invaden los sueños del profesor de matemáticas de Morty."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/zD6p2n12/capitulo3.jpg",
+            "titlecap": "Parque anatómico",
+            "descap": "Morty aparece en un extraño parque temático de enfermedades infecciosas y ubicado en el inferior de un vagabundo. Los padres de Jerry presentan a su amante compartido."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/wBjhjvps/capitulo4.jpg",
+            "titlecap": "La similuación alienígena",
+            "descap": "Extraterrestres envían a Rick, Morty y a Jerry a una realidad alterna, donde Rick intenta salvarlos mientras el distraído Jerry promueve un eslogan para vender manzanas."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/y8MHVJ9L/capitulo5.jpg",
+            "titlecap": "Meeseeks destructores",
+            "descap": "Morty está cansado de las locuras de Rick, así que propone una aventura supuestamente más tranquila. Jerry conjura a una extraña criatura para ayudarlo en el golf."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/1tP1qLv6/capitulo6.jpg",
+            "titlecap": "La poción de Rick",
+            "descap": "Morty usa una posición para ser atractivo a las chicas, pero el efecto se vuelve viral y contagia a todos en la Tierra, así que queda en manos de Rick limpiar el"
+          },
+          {
+            "imgcap": "https://i.postimg.cc/ydP4XvGG/capitulo7.jpg",
+            "titlecap": "Criando un Gazorpazorp",
+            "descap": "Después de que Morty tiene un bebé con un robot sexual, Rick y Summer visitan el planeta de la mamá, donde el retoño se convierte en un adulto en cuestión de días."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/PJ5G61s5/capitulo8.jpg",
+            "titlecap": "Televisión interdimensional",
+            "descap": "Aburrido de la televisión, Rick instala una señal de cable que parcibe series de otras dimensiones. Todos usan gafas para ver a sus yos alternativos."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/ZKvsJwch/capitulo9.jpg",
+            "titlecap": "Cosas necesarias",
+            "descap": "Rick tiene dudas sobre el nuevo trabajo de Summer en una tienda administrada por el diablo. Jerry y Morty discuten sobre si Plutón es o no un planeta y viajan ahí."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/52wPCjT7/capitulo10.jpg",
+            "titlecap": "Encuentros cercanos a lo Rick",
+            "descap": "Rick intenta disfrutar de su desayuno, pero un grupo de Ricks alternativos lo secuestra y lo juzga por crimenes contra los Ricks."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/vmb0LbdQ/capitulo11.jpg",
+            "titlecap": "Es hora de la fiesta",
+            "descap": "Jerry y Beth salen para participar en la recreación del hundimiento del Titanic, Rick y Summer hacen una fiesta que se sale de control."
+          }
+        ]
+      },
+    
+      {
+        "id": 12,
+        "imgCarousel": "https://i.postimg.cc/KjpYQZWC/suits.jpg",
+        "imgPortada": "https://i.postimg.cc/xjpjw1s4/suits-Portada.jpg",
+        "imgMobile": "https://i.postimg.cc/DZkp1NVr/suits-Mobile.jpg",
+        "title": "Suits",
+        "desc": "Una serie de abogados con un toque diferente. Nos cuenta la historia de Mike Ross, un ex-estudiante de derecho que se gana la vida haciendo exámenes por los demás gracias a su prodigiosa memoria fotográfica.",
+        "parati": "67% para ti",
+        "year": "2011",
+        "age": "13+",
+        "time": "9 temporadas",
+        "type": "serie",
+        "temporada1": [
+          {
+            "imgcap": "https://i.postimg.cc/CKdpHG0M/capitulo1.jpg",
+            "titlecap": "Piloto (Partes 1 y 2)",
+            "descap": "Cuando Harvey es ascendido y debe contratar a un egresado de la Facultad de Derecho de Harvard, elige a Mike Ross. La cuestión es que Mike no es abogado."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/s28dnMfY/capitulo2.jpg",
+            "titlecap": "Errores y omisiones",
+            "descap": "Un caso cerrado se vuelve a abrir cuando acusan a Harvey de mantener una relación inadecuada con una mujer casada."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/JnkwSRt9/capitulo3.jpg",
+            "titlecap": "Vía rápida",
+            "descap": "Jessica espera que el ascenso calme a Harvey. Sin embargo, pierde el control al intentar resolver una situación critíca."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/NFvhcZHL/capitulo4.jpg",
+            "titlecap": "Secretos sucios",
+            "descap": "La relación entre Harvey y Jessica es puesta a prueba cuando Harvey defiende a alguien del pasado de ella."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/52RRJZc1/capitulo5.jpg",
+            "titlecap": "Fianza",
+            "descap": "La vida de Mike se complica con la reaparición de un viejo amigo que necesita su ayuda."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/RFrp6KVD/capitulo6.jpg",
+            "titlecap": "Transacciones ilícitas",
+            "descap": "Harvey y Mike trabajan en conjunto para salvar a una mujer acusada injustamente de tráfico de información confidencial."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/0jPtZvSG/capitulo7.jpg",
+            "titlecap": "Jucio falso",
+            "descap": "Llegó el momento de la simulación de juicio, y Mike deberá enfrentarse a Kyle, el protegido de Louis."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/PJySR7bg/capitulo8.jpg",
+            "titlecap": "Crisis de identidad",
+            "descap": "Mike recibe la tarea de controlar a una Robin Hood moderna cuyas acciones ilicítas ponen en riesgo el negocio de un cliente."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/y8y0XRPG/capitulo9.jpg",
+            "titlecap": "Invicto",
+            "descap": "Un abogado usa dudodas tácticas para mantenerse siempre un paso más adelante de Harvey, quien debe decidir si compromete sus valores éticos para ganar un caso."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/63yRXmXs/capitulo10.jpg",
+            "titlecap": "Fraudes corporativos",
+            "descap": "Harvey debe mantener a Mike fuera de la mira de Jessica cuando su empatía por un ejecutvio despedido amenaza la relación entre el estudio y un cliente."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/SN09Bd15/capitulo11.jpg",
+            "titlecap": "Las reglas del juego",
+            "descap": "El antiguo mentor de Harvey recurre a él en busca de ayuda ante una investigación sobre su oficina."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/bwptJJh9/capitulo12.jpg",
+            "titlecap": "Pelea de perros",
+            "descap": "Los esfuerzos de Harvey para liberar a un hombre inocente resultan en vano cuando deben enfrentar al nuevo fiscal del distrito."
+          }
+        ]
+      },
+    
+      {
+        "id": 13,
+        "imgCarousel": "https://i.postimg.cc/gJH9GNqD/toy-Story2.jpg",
+        "imgPortada": "https://i.postimg.cc/9QRvDWYz/toy-Story2-Portada.jpg",
+        "imgMobile": "https://i.postimg.cc/cLPFNzLp/toy-Story2-Mobile.jpg",
+        "title": "Toy Story 2",
+        "desc": "Cuando Andy se va al campamento vaquero, un coleccionista obsesivo secuestra a Woody, y Buzz Lightyear y la pandilla deben salvar a su amigo.",
+        "parati": "89% para ti",
+        "year": "1999",
+        "age": "7+",
+        "time": "1h 32min",
+        "type": "movie"
+      },
+    
+      {
+        "id": 14,
+        "imgCarousel": "https://i.postimg.cc/zGKxm3kw/sabrina.jpg",
+        "imgPortada": "https://i.postimg.cc/442LVDdc/sabrina-Portada.jpg",
+        "imgMobile": "https://i.postimg.cc/SshVnz8V/sabrina-Mobile.jpg",
+        "title": "El mundo oculto de Sabrina",
+        "desc": "La magia y las travesuras marcan el rumbo de Sabrina, una adolescente de doble naturaleza que se debate entre el mundo de los mortales y el que se oculta debajo.",
+        "parati": "73% para ti",
+        "year": "2018",
+        "age": "16+",
+        "time": "3 partes",
+        "type": "serie",
+        "temporada1": [
+          {
+            "imgcap": "https://i.postimg.cc/y880jdbY/capitulo1.jpg",
+            "titlecap": "El país de octubre",
+            "descap": "Mientras Greendale se prepara para un eclipse de Halloween, Sabrina debe tomar una decisión muy difícil, y Harvey hace una declaración inesperada."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/Mp3VFSC0/capitulo2.jpg",
+            "titlecap": "El bautismo oscuro",
+            "descap": "La Funeraria Spellman recibe una visita legendaria, Ambrose investiga un nefasto descubrimiento, y Sabrina revela una noticia impactanete al aquelarre."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/7LC0vR4F/capitulo3.jpg",
+            "titlecap": "El juicio de Sabrina Spellman",
+            "descap": "Sabrina enfrenta un extenso legado de ocultamiento familiar. Harvey lucha contra una templestad en casa y confiesa un secreto de la infancia."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/5tZvfmN6/capitulo4.jpg",
+            "titlecap": "La academia de las brujas",
+            "descap": "Sabrina se va de viaje de fin de semana. El padre Blackwood hace una pregunta crucial. Roz y Susie improvisan una pijama un tanto perturbadora." 
+          },
+          {
+            "imgcap": "https://i.postimg.cc/zvWY982y/capitulo5.jpg",
+            "titlecap": "Los sueños en la casa de la bruja",
+            "descap": "Un demonio misterioso siembra el caos en la Funeraria Spellman. Sabrina se rebela y decide poner a prueba sus poderes."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/66GK7f6B/capitulo6.jpg",
+            "titlecap": "Exorcismo en Greendale",
+            "descap": "Harvey, Roz y Susie investigan una misteriosa fuerza diabólica. Sabrina ahonda en las verdaderas intenciones de Mary Wardwell. Hilda intenta comenzar de nuevo."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/BQ902PtH/capitulo7.jpg",
+            "titlecap": "El Festín de los Festines",
+            "descap": "El aquelarre organiza el ritual anual mientras Harvey participa en una tradición familiar de los Kinkle. Sabrina sospecha cada vez más de la señora Blackwood."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/L6tMD4Z7/capitulo8.jpg",
+            "titlecap": "El entierro",
+            "descap": "Una tragedia sacude a la comunidad de Greendale. Desesperada por ayudar, Sabrina prueba una nueva clase de magia negra con una aliada inesperada."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/G2CFkQ06/capitulo9.jpg",
+            "titlecap": "El resucitado",
+            "descap": "Sabrina recluta a Roz para una misión clave. Susie se reconecta con su pasado. El padre Blackwood desautoriza a la tía Zelda."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/Gt3vfmmQ/capitulo10.jpg",
+            "titlecap": "La hora de las bujas",
+            "descap": "Un ataque revolucionario divide a las brujas y a los mortales de Greendale, y Sabrina se prepara para tomar una decisión que podría cambiarlo todo."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/yxf0CCJz/capitulo11.jpg",
+            "titlecap": "Un cuento invernal",
+            "descap": "Se avecina el solsticio de invierno, y Sarina organiza una sesión de espiritismo que tendrá gravísimas consecunecias. Los alegres planes de Susie se vuelven amenazantes."
+          }
+        ]
+      },
+    
+      {
+        "id": 15,
+        "imgCarousel": "https://i.postimg.cc/3xLrjrsh/contratiempo.jpg",
+        "imgPortada": "https://i.postimg.cc/SR7knm6w/contratiempo-Portada.jpg",
+        "imgMobile": "https://i.postimg.cc/mkdSpXn6/contratiempo-Mobile.jpg",
+        "title": "CONTRATIEMPO",
+        "desc": "Un hombre joven de negocios se despierta junto al cuerpo sin vida de su amante y contrata a una prestigiosa abogada para investigar qué sucedió.",
+        "parati": "65% para ti",
+        "year": "2016",
+        "age": "13+",
+        "time": "1h 46min",
+        "type": "movie"
+      },
+  
+      {
+        "id": 16,
+        "imgCarousel": "https://i.postimg.cc/sfJkGHdd/fractura.jpg",
+        "imgPortada": "https://i.postimg.cc/rmXBxvwc/fractura-Portada.jpg",
+        "imgMobile": "https://i.postimg.cc/5N0gQJYc/fractura-Mobile.jpg",
+        "title": "FRACTURA",
+        "desc": "Fueron a la sala de emergencias con su hija, que tuvo un accidente. La esposa la lleva a hacerse una tomografía mientras él espera y las horas pasan, pero nunca vuelven.",
+        "parati": "69% para ti",
+        "year": "2019",
+        "age": "16+",
+        "time": "1h 40min",
+        "type": "movie"
+      }
+    
+    ],
+    "continuarViendo": [
+      {
+        "id": 17,
+        "imgCarousel": "https://i.postimg.cc/qMR5hkxy/charlie-YLa-Fabrica-De-Chocolates.jpg",
+        "imgPortada": "https://i.postimg.cc/wTGbDSwP/charlie-Yla-Fabrica-De-Chocolate-Portada.jpg",
+        "imgMobile": "https://i.postimg.cc/zB8SzYZc/charliey-La-Fabrica-De-Chocolate-Mobile.jpg",
+        "title": "Charlie Y LA FABRICA DE CHOCOLATE",
+        "desc": "El excéntrico Willy Wonka abre las puertas de su fábrica de chocolate a cinco suertudos niños. Quieran o no, aprenderán todos los secretos que esconde.",
+        "parati": "98% para ti",
+        "year": "2005",
+        "age": "7+",
+        "time": "1h 55min",
+        "type": "movie"
+      },
+    
+      {
+        "id": 18,
+        "imgCarousel": "https://i.postimg.cc/SQZZpBbs/forrest-Gump.jpg",
+        "imgPortada": "https://i.postimg.cc/50gsyGHs/forrest-Gump-Portada.jpg",
+        "imgMobile": "https://i.postimg.cc/Zqh6HzR5/forrest-Gump-Mobile.jpg",
+        "title": "Forrest Gump",
+        "desc": "Tom Hanks es Forrest Gump, un hombre ingenuo que resulta en medio de casi todos los hechos más importantes de los sesenta y sesenta.",
+        "parati": "70% para ti",
+        "year": "1994",
+        "age": "16+",
+        "time": "2h 22min",
+        "type": "movie"
+      },
+    
+      {
+        "id": 19,
+        "imgCarousel": "https://i.postimg.cc/zXCFG69K/matilda.jpg",
+        "imgPortada": "https://i.postimg.cc/3NpCpcWM/matilda-Portada.jpg",
+        "imgMobile": "https://i.postimg.cc/xdyMFpJy/matilda-Mobile.jpg",
+        "title": "MATILDA",
+        "desc": "Una niña descubre sus poderes ocultos, que usa para ayudar en ciertas dificultades y para castigar a las personas crueles, como el director de la escuela y sus padres.",
+        "parati": "68% para ti",
+        "year": "1996",
+        "age": "7+",
+        "time": "1h 38min",
+        "type": "movie"
+      },
+    
+      {
+        "id": 20,
+        "imgCarousel": "https://i.postimg.cc/85fhQ0RF/stranger-Things.jpg",
+        "imgPortada": "https://i.postimg.cc/3wdGmcbL/stranger-Things-Portada.jpg",
+        "imgMobile": "https://i.postimg.cc/Fz1Sz9PD/stranger-Things-Mobile.jpg",
+        "title": "STRANGER THINGS",
+        "desc": "Después de la extra{a desaparición de un niño, un pueblo se encuentra ante un misterio que revela experimentos secretos, fuerzas sobrenaturales y a una niña muy especial.",
+        "parati": "95% para ti",
+        "year": "2016",
+        "age": "16+",
+        "time": "3 temporadas",
+        "type": "serie",
+        "temporada1": [
+          {
+            "imgcap": "https://i.postimg.cc/4yLZ6B05/capitulo1.jpg",
+            "titlecap": "La desaparición de Will Byers",
+            "descap": "Will es testigo de algo horroroso cuando regresa a casa. Cerca de ahí, un laboratorio gubernamental esconde un terrible secreto en sus profundidades."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/NGpgvj0H/capitulo2.jpg",
+            "titlecap": "La loca de la calle Maple",
+            "descap": "Lucas, Mike y Dustin intentan hablar con la niña que encontraron. Joyce, muy ansiosa, es interrogada por Hopper sobre una llamada telefónica."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/zXvqzYLP/capitulo3.jpg",
+            "titlecap": "Todo está bien",
+            "descap": "Nancy, cada vez más preocupada, busca a Barb y descubre lo que Jonathan está tramando. Joyce está segura de que Will intenta comunicarse con ella."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/Fs6N1C3F/capitulo4.jpg",
+            "titlecap": "El cuerpo",
+            "descap": "Joyce se rehusa a aceptar que Will está muerto e intenta comunicarse con él, y los chicos ayudan a Once a cambiar de imagen. Nancy y Jonathan forman una alianza."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/CKgyf310/capitulo5.jpg",
+            "titlecap": "La culpa y el acróbata",
+            "descap": "Hopper entra al laboratorio. Nancy y Jonathan enfrentan a lo que se llevó a Will, y los chicos preguntan al señor Clarke cómo viajar a otra dimensión"
+          },
+          {
+            "imgcap": "https://i.postimg.cc/PxXBS1YF/capitulo6.jpg",
+            "titlecap": "El monstruo",
+            "descap": "Jonathan busca a Nancy en la oscuridad y Steve hace lo mismo. Hopper y Joyce descubren la verdad sobre los experimentos del laboratorio."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/hj2N6h04/capitulo7.jpg",
+            "titlecap": "La bañera",
+            "descap": "Once intenta llegar hasta Will, y Lucas advierte sobre algo terrible que se avecina. Nancy y Jonathan le muestran a la policía lo que captó con su cámara."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/90zshVxd/capitulo8.jpg",
+            "titlecap": "El otro lado",
+            "descap": "El doctor Brenner detiene a Hopper y Joyce para un interrogatorio. Los chicos esperan con Once en el gimnasio, mientras que Nancy y Jonathan se preparan para luchar."
+          }
+        ]
+      },
+    
+       {
+        "id": 21,
+        "imgCarousel": "https://i.postimg.cc/z3Z7c14X/the-End-Of-The-Fucking-World.jpg",
+        "imgPortada": "https://i.postimg.cc/j5BBtmBB/the-End-Of-The-Fucking-World-Portada.jpg",
+        "imgMobile": "https://i.postimg.cc/kMh8Zb4Z/the-End-Of-The-Fucking-World-Mobile.jpg",
+        "title": "THE END OF THE F***ING WORLD",
+        "desc": "Un psicópata en ciernes y una rebelde hambrienta de aventurar comparten un viaje fatídico por carretera. Serie de comedia negra basada en novela gráfica.",
+        "parati": "84% para ti",
+        "year": "2017",
+        "age": "16+",
+        "time": "2 temporadas",
+        "type": "serie",
+        "temporada1": [
+          {
+            "imgcap": "https://i.postimg.cc/h4p7ZgWC/capitulo1.jpg",
+            "titlecap": "Episodio 1",
+            "descap": "Matar animales ya no lo motiva. Con su diecisiete años, James ahora planea su primer asesinato real, pero justo aparece Alyssa para desconcentrarlo."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/WbzqQKss/capitulo2.jpg",
+            "titlecap": "Episodio 2",
+            "descap": "En el camino, James y Alyssa no tardan en darse cuenta de que la situación los supera, pero ninguno quiere admitirlo. Un amistoso veterano del ejército ofrece su ayuda."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/MKLfxDGV/capitulo3.jpg",
+            "titlecap": "Episodio 3",
+            "descap": "Con el objetivo de no llamar la atención, el dúo invade una casa llena de lujos y comocidades, que esconde un secreto inquietante..."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/4xh739KM/capitulo4.jpg",
+            "titlecap": "Episodio 4",
+            "descap": "Luego de una noche agitada, Alyssa y James cambian de apariencia para subrir sus huellas, y ella lo empieza a ver con otros ojos."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/tgkXRqzw/capitulo5.jpg",
+            "titlecap": "Episodio 5",
+            "descap": "Un recuerdo doloroso de la infancia hace que James cambie de planes. Corta de plata, Alyssa recurre al robo de tiendas."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/FRKh7MWR/capitulo6.jpg",
+            "titlecap": "Episodio 6",
+            "descap": "James demuestra que tiene muchos talentos ocultos, Alyssa salda cuentas con la dueña de una gasolinera, y Eunice hace un descubrimiento alarmante."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/nzwp73g1/capitulo7.jpg",
+            "titlecap": "Episodio 7",
+            "descap": "Alyssa reconecta con su padre, mientras que James, preocupado, enfrenta un dilema. Eunice y Teri no se ponen de acuerdo de la manera de hablar con adolescentes."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/1XkS7f9n/capitulo8.jpg",
+            "titlecap": "Episodio 8",
+            "descap": "Eunice se rebela, Leslie se muestra tal y como es, y Alyssa y James planean un escape contra reloj."
+          }
+        ]
+      },
+    
+      {
+        "id": 22,
+        "imgCarousel": "https://i.postimg.cc/YC390zrd/the-Midnight-Gospel.jpg",
+        "imgPortada": "https://i.postimg.cc/d03q1MS0/the-Midnight-Gospel-Portada.jpg",
+        "imgMobile": "https://i.postimg.cc/yYg9z83N/the-Midnight-Gospel-Mobile.jpg",
+        "title": "THE MIDNIGHT GOSPEL",
+        "desc": "Un locutor espacial atraviesa mundos delirantes en su simulador del universo y ahonda en preguntas existenciales sobre la vida, la muerte y todo lo que encierran.",
+        "parati": "81% para ti",
+        "year": "2020",
+        "age": "16+",
+        "time": "1 temporada",
+        "type": "serie",
+        "temporada1": [
+          {
+            "imgcap": "https://i.postimg.cc/7ZyGfLgZ/capitulo1.jpg",
+            "titlecap": "Malditos zombis",
+            "descap": "El simulador lleva a Clancy a una Tierra azotada por zombis. Allí conoce al presidente, aficionado a las drogas y la meditación. Con el Dr. Drew Pinksy."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/CxHZDVNH/capitulo2.jpg",
+            "titlecap": "Medita como Cristo",
+            "descap": "En un planeta habitado por bebés payasos, Clancy escucha la opinión que tiene sobre la muerte una perra cierva mientras van a un matadero. Con Anne Lamott y Raghu Markus."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/DzvSPYpV/capitulo3.jpg",
+            "titlecap": "¿Vomitas helado?",
+            "descap": "Clancy se transporta a un planeta subacuático, en el cual coincide con Darryl: un estudiante de la magia ceremonial y el camino a la iluminación. Con Damian Echols."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/1zvfCcb8/capitulo4.jpg",
+            "titlecap": "Ordeñar el cuervito",
+            "descap": "Un incidente hace que Clancy termine en un planeta medieval, en el cual cabalga con una caballera en una misión para vengar la muerte de su amante. Con Trudy Goodman."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/4N3Xf72g/capitulo5.jpg",
+            "titlecap": "Seca esas cucharas",
+            "descap": "En una prisión para seres simulados que sufren de miedo existencial, Clancy reflexiona sobre la realidad mientras mira a un recluso morir una y otra vez. Con Jason Louv."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/mgzRMxGp/capitulo6.jpg",
+            "titlecap": "El trasero de tu mente",
+            "descap": "Cuando falla su simulador, Clancy se ve obligado a afrontar algunos problemas del mundo real. Después, conoce a un maestro de meditación. Con David Nichtern."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/jjybgz2z/capitulo7.jpg",
+            "titlecap": "Muerte, me encantó conocerte",
+            "descap": "Un viaje aburrido da un vuelco extraordinario cuando, por accidente, Clancy cae en otro mundo...y se encuentra frente a frente con la Muerte. Con Caitilin Doughty."
+          },
+          {
+            "imgcap": "https://i.postimg.cc/Rhp56dpz/capitulo8.jpg",
+            "titlecap": "Desde adentro",
+            "descap": "Clancy acompaña a su madre en un conmovedor recorrido por su prodigioso ciclo del nacimiento, la vida y la muerte. Con Deneen Fending, la difunta madre de Duncan Trussell."
+          }
+        ]
+      },
+    
+      {
+        "id": 23,
+        "imgCarousel": "https://i.postimg.cc/W3SxCSvJ/toy-Story1.jpg",
+        "imgPortada": "https://i.postimg.cc/QMJzKSVn/toy-Story1-Portada.jpg",
+        "imgMobile": "https://i.postimg.cc/DzFbsQjW/toy-Story1-Mobile.jpg",
+        "title": "TOY STORY",
+        "desc": "El vaquero Woody era el juguete favorito de Andy. Claro, hasta que llega Buzz Lightyear, un nuevo reluciente héroe espacial que toma por asalto el cuarto de juegos.",
+        "parati": "87% para ti",
+        "year": "1995",
+        "age": "7+",
+        "time": "1h 21min",
+        "type": "movie"
+      },
+    
+      {
+        "id": 24,
+        "imgCarousel": "https://i.postimg.cc/8ztK1cYq/volver-Al-Futuro.jpg",
+        "imgPortada": "https://i.postimg.cc/qRtZDrjW/volver-Al-Futuro-Portada.jpg",
+        "imgMobile": "https://i.postimg.cc/Bb88sm6z/volver-Al-Futuro-Mobile.jpg",
+        "title": "VOLVER AL FUTURO",
+        "desc": "El excéntrico invetor Doc Brown convierte un DeLorean en una máquina del tiempo que accidentalmente envía a su joven amigo, Marty McFly, 30 años en el pasado.",
+        "parati": "69% para ti",
+        "year": "1985",
+        "age": "13+",
+        "time": "1h 56min",
+        "type": "movie"
+      }
+    
+    ]
   }
 ]
