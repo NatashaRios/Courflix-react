@@ -1,6 +1,7 @@
 [
   {
     "portada": {
+      "id": "0",
       "img": "https://i.postimg.cc/qq83Gjh9/en-Busca-De-La-Felicidad-Portada.jpg",
       "title": "En busca de la felicidad",
       "desc": "Un papá soltero con problemas económicos intenta sacar a su familia adelante. Su esfuerzo le llevará a entender el verdadero significado de la felicidad.",
@@ -67,7 +68,7 @@
         "imgCarousel": "https://i.postimg.cc/XYrg7zgC/breaking-Bad.jpg",
         "imgPortada": "https://i.postimg.cc/Gtpyg47y/breaking-Bad-Portada.jpg",
         "imgMobile": "https://i.postimg.cc/cJm0zfs8/breaking-Bad-Mobile.jpg",
-        "title": "https://i.postimg.cc/28RqBXmW/logo-Breaking-Bad.png",
+        "title": "BREAKING BAD",
         "desc": "Un profesor de Química de secundaria con cáncer terminal se asocia a una exestudiante para asegurar el futuro de su familia al fabricar y vender metanfetamina",
         "parati": "80% para ti",
         "year": "2008",
@@ -174,7 +175,7 @@
         "imgCarousel": "https://i.postimg.cc/MZFR1fhk/friends.jpg",
         "imgPortada": "https://i.postimg.cc/zf7Hvync/friends-Portada.jpg",
         "imgMobile": "https://i.postimg.cc/ZqR41C07/friends-Mobile.jpg",
-        "title": "https://i.postimg.cc/YSzydBFW/logo-Friends.png",
+        "title": "FRIENDS",
         "desc": "Son seis amigos treintañeros que viven en Nueva York. Juntos afrontan con humor las dificultades propias de su edad: líos amorosos, trabajo, familia y su propia convivencia.",
         "parati": "87% para ti",
         "year": "1994",

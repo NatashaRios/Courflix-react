@@ -1,5 +1,6 @@
 import React from 'react';
 import Slider from 'react-slick';
+import { Link } from 'react-router-dom';
 import './styles.scss';
 
 
@@ -26,22 +27,34 @@ class InnerCarousel extends React.Component {
     }
   } 
   render() {
-    const { data, showLine } = this.props;
-    console.log(data)
+    const { data, showLine, temporada, showCarousel, showSecond } = this.props;
+    
     return(
       <React.Fragment>
         <Slider {...this.settings}>
-          {data.map((peliculayserie, key) => {
+           {showCarousel && ( data.map((peliculayserie, key) => {
             return(
               <div className="wrapper-innercarousel" key={key}>
-                <img className="img-innercarousel" key={key}  src={peliculayserie.imgCarousel}/>
-                <img className="img-innercarousel-mobile" key={key}  src={peliculayserie.imgMobile}/>
+                <Link to={`/seriesypeliculas/${peliculayserie.id}`}>
+                <img  className="img-innercarousel" src={peliculayserie.imgCarousel}/>
+                <img className="img-innercarousel-mobile" src={peliculayserie.imgMobile}/>
+                </Link>
                 {showLine && (
-                  <div class="line-innercarousel"><div class="lineProgress-innercarousel"></div></div>
+                  <div className="line-innercarousel"><div className="lineProgress-innercarousel"></div></div>
                 )}
               </div>
             )
-          })}
+          }))} 
+
+           {showSecond && showCarousel && temporada && ( temporada.map((capitulo, key) => {
+            console.log(capitulo)
+            return(
+              <div className="wrapper-innercarousel" key={key}>
+              <img className="img-innercarousel" src={capitulo.imgcap} />
+            </div>
+            )
+          })
+          )} 
         </Slider>
       </React.Fragment>
     )

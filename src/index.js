@@ -10,7 +10,7 @@ import SeriesyPeliculas from './pages/SeriesyPeliculas';
 ReactDOM.render(
   <Router>
     <Route exact path="/" component={App} />
-    <Route exact path="/seriesypeliculas:seriesypeliculas" component={SeriesyPeliculas} />
+    <Route exact path="/seriesypeliculas/:seriesypeliculasId" component={SeriesyPeliculas} />
   </Router>,
   document.getElementById('root')
 );
