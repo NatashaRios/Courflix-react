@@ -8,6 +8,7 @@ import courflixImg from '../../assets/courflixImg.png';
 
 
 class App extends React.Component {
+ 
   render() {
     const { img, title, desc, year, age, time } = courflix[0].portada;
     

@@ -85,8 +85,10 @@ class Hero extends React.Component {
  }
 
   render() {
-    const { img, title, desc, year, age, time, parati, year2, age2, time2, like, dislike } = this.props;
+    const { img, title, desc, year, age, time, parati, year2, age2, time2, like, dislike, infoPath } = this.props;
     const { likeColor, dislikeColor } = this.state;
+    
+    console.log(infoPath)
     return(
       <div className="wrapper-hero" id="hero" style={{ backgroundImage: `url(${img})` }}>
         <h1 className="title-hero"> {title} </h1>
@@ -100,8 +102,13 @@ class Hero extends React.Component {
         <div>
         <button className="button-hero reproducir-hero">Reproducir</button>
         <button className="button-hero lista-hero">+ mi lista</button>
-        <button onClick={() => this.handleLike()} className={likeColor}>{like}</button>
-        <button onClick={() => this.handleDislike()} className={dislikeColor}>{dislike}</button>
+        {infoPath && (
+          <React.Fragment>
+            <button onClick={() => this.handleLike()} className={likeColor}>{like}</button>
+            <button onClick={() => this.handleDislike()} className={dislikeColor}>{dislike}</button>
+          </React.Fragment>
+        )}
+        
         </div>
         <p className="desc-hero"> {desc} </p>
       </div>

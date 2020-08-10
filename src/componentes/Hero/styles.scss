@@ -132,9 +132,11 @@ $mobile: 480px;
   margin-left: 1.2rem;
   font-size: 2em;
   background-color: transparent;
-  border: 0;
+  border: 3px solid rgba(126, 121, 121, 0.6);
+  border-radius: 30px;
+  padding: 0.6rem;
   color: rgba(126, 121, 121, 0.6);
-
+  
   @media screen and (max-width: $ipad){
     display: none;
   }
@@ -145,7 +147,9 @@ $mobile: 480px;
   margin-left: 1.2rem;
   font-size: 2em;
   background-color: transparent;
-  border: 0;
+  border: 3px solid rgba(42, 187, 90, 0.6);
+  border-radius: 30px;
+  padding: 0.6rem;
   color: rgba(42, 187, 90, 0.6);
 
   @media screen and (max-width: $ipad){
@@ -158,7 +162,9 @@ $mobile: 480px;
   margin-left: 1.2rem;
   font-size: 2em;
   background-color: transparent;
-  border: 0;
+  border: 3px solid rgba(243, 18, 18, 0.6);
+  border-radius: 30px;
+  padding: 0.6rem;
   color: rgba(243, 18, 18, 0.6);
 
   @media screen and (max-width: $ipad){

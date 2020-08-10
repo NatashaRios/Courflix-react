@@ -5,7 +5,7 @@ import './styles.scss';
 
 
 class InnerCarousel extends React.Component {
-   constructor(props) {
+   /* constructor(props) {
     super(props);
 
     this.settings = {
@@ -25,14 +25,33 @@ class InnerCarousel extends React.Component {
         }
       ]
     }
-  } 
+  }  */
   render() {
-    const { data, showLine, temporada, showCarousel, showSecond } = this.props;
+    const { data, showLine, temporada, showCarousel, movies, infoPath } = this.props;
+
+    const settings = {
+      slidesToShow: 4,
+      slideToScroll: 4,
+      variableWidth: true,
+      accesibility: true,
+      infinit: true,
+      arrows: true,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            slideToScroll: 1,
+          }
+        }
+
+      ]
+    }
     
     return(
       <React.Fragment>
-        <Slider {...this.settings}>
-           {showCarousel && ( data.map((peliculayserie, key) => {
+        <Slider {...settings}>
+           { showCarousel && ( data.map((peliculayserie, key) => {
             return(
               <div className="wrapper-innercarousel" key={key}>
                 <Link to={`/seriesypeliculas/${peliculayserie.id}`}>
@@ -46,15 +65,30 @@ class InnerCarousel extends React.Component {
             )
           }))} 
 
-           {showSecond && showCarousel && temporada && ( temporada.map((capitulo, key) => {
-            console.log(capitulo)
+           {temporada && ( temporada.map((capitulo, key) => {
             return(
-              <div className="wrapper-innercarousel" key={key}>
-              <img className="img-innercarousel" src={capitulo.imgcap} />
-            </div>
+              <div className="wrapper-innercarousel-second" key={key}>
+                <img className="img-innercarousel-second" src={capitulo.imgcap} />
+                <div className="text-second">
+                  <p className="title-innercarousel-second">{capitulo.titlecap}</p>
+                  <p className="desc-innercarousel-second">{capitulo.descap}</p>
+                </div>
+              </div>
             )
           })
           )} 
+
+           {movies && ( movies.map ((movie, key) => {
+             return(
+              <div className="wrapper-innercarousel-second" key={key}>
+                <img className="img-innercarousel-second" src={movie.imgCarousel} />
+                <div className="text-second">
+                  <p className="title-carousel-second">{movie.title}</p>
+                  <p className="desc-innercarousel-second">{movie.desc}</p>
+                </div>
+              </div>
+             )
+          }))} 
         </Slider>
       </React.Fragment>
     )

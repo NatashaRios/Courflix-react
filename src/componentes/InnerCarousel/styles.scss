@@ -66,11 +66,41 @@ $mobile: 480px;
       width: 2rem;
     }
   }
+
+}
+
+.wrapper-innercarousel-second{
+  display: flex;
+  margin: 1rem 0 0 1rem;
+  height: 6.3rem;
+
+  @media screen and (max-width: $mobile){
+    flex-direction: column;
+  }
+
+  .img-innercarousel-second{
+    width: 22rem;
+    height: 12rem;
+    object-fit: cover;
+
+  }
+  .text-second{
+    .title-innercarousel-second{
+      width: 22rem;
+      font-weight: bold;
+      margin: 1rem 0 1rem 0;
+    }
+    .desc-innercarousel-second{
+      width: 22rem;
+      line-height: 1.5rem;
+    }
+  }
+
 }
 
 .slick-arrow, .slick-next, .slick-prev{
   z-index: 9999;
-  top: 35%;
+  top: 30%;
   margin: 2rem;
   padding-bottom: 0;
 

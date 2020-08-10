@@ -1,11 +1,10 @@
 import React from 'react';
 import InnerCarousel from '../InnerCarousel';
-import courflix from '../../data/courflix.json';
 import './styles.scss';
 
 class Carousel extends React.Component {
   render() {
-    const { titleSerie, titleCont, titleAgr, dataS, dataC, dataA, types, temporada, movies, titleSerieT, titleMovie, showCarousel, showSecond} = this.props;
+    const { titleSerie, titleCont, titleAgr, dataS, dataC, dataA, types, temporada, movies,  titleMovie, showCarousel, showSecond, infoPath } = this.props;
     
     return(
       <React.Fragment>
@@ -29,8 +28,13 @@ class Carousel extends React.Component {
            {showSecond && (
             <React.Fragment>
               <div className="content-carousel">
-                <h2 className="title-carousel">{titleSerieT}</h2>
-                <InnerCarousel temporada={temporada} showSecond={showSecond} showCarousel={showCarousel}/>
+                {types == "serie"? 
+                <h2 className="title-carousel">{titleSerie}</h2>
+                : <h2 className="title-carousel">{titleMovie}</h2> 
+                } 
+                <InnerCarousel temporada={temporada} infoPath={infoPath} />
+                <InnerCarousel movies={movies[0]} infoPath={infoPath}/> 
+                
               </div>
             </React.Fragment>
           )} 
