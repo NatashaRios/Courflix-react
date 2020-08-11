@@ -28,10 +28,10 @@ class Navbar extends React.Component {
   }
 
   render() {
-   const { img, inicio, series, cont, agreg, list, menuH } = this.props;
+   const { img, inicio, series, cont, agreg, list, infoPath1 } = this.props;
     return(
       <header className="header">
-        {menuH && (
+        {infoPath1 && (
           <div className="div-menu">
           <Menu className="menu-navbar" isOpen={this.state.menuOpen} onStateChange={(state) => this.handleStateChange(state)}>
           <ul className="menu-navbar-ul">

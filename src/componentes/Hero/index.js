@@ -42,11 +42,31 @@ class Hero extends React.Component {
      })
    }
  }
+
+ handleClick(info) {
+   const stringifiedList = localStorage.getItem("miList");
+   if(stringifiedList){
+     const parsedList = JSON.parse(stringifiedList);
+     const included = parsedList.some(peliculayserie => {
+       return info.id == peliculayserie.id
+     })
+     if(!included) {
+      parsedList.push(info);
+      const newList = JSON.stringify(parsedList);
+      localStorage.setItem("miList", newList)
+     } return
+   } else {
+     const parsedList = [info];
+     const newList = JSON.stringify(parsedList);
+     localStorage.setItem("miList", newList);
+   }
+ }
  
 
   render() {
-    const { img, title, desc, year, age, time, parati, year2, age2, time2, like, dislike, infoPath, linkReproducir, buttonReproducir } = this.props;
+    const { img, title, desc, year, age, time, parati, year2, age2, time2, like, dislike, infoPath1, infoPath2, info } = this.props;
     const { likeColor, dislikeColor } = this.state;
+   console.log(info)
     return(
       <div className="wrapper-hero" id="hero" style={{ backgroundImage: `url(${img})` }}>
         <h1 className="title-hero"> {title} </h1>
@@ -58,20 +78,20 @@ class Hero extends React.Component {
         <p className="hero-second age-hero-second">{age2}</p>
         <p className="hero-second time-hero-second">{time2}</p>
         <div>
-        {linkReproducir && (<Link to="/seriesypeliculas/23">
+        {infoPath1 && (<Link to="/seriesypeliculas/23">
           <React.Fragment>
           <button className="button-hero reproducir-hero" >Reproducir</button>
           </React.Fragment>
         </Link>)}
 
-        {buttonReproducir && (
+        {infoPath2 && (
           <React.Fragment>
             <button className="button-hero reproducir-hero" >Reproducir</button>
           </React.Fragment>
         )}
-       
-        <button className="button-hero lista-hero">+ mi lista</button>
-        {infoPath && (
+     
+        <button className="button-hero lista-hero" onClick={() => this.handleClick(info)}>+ mi lista</button>
+        {infoPath2 && (
           <React.Fragment>
             <button onClick={() => this.handleLike()} className={likeColor}>{like}</button>
             <button onClick={() => this.handleDislike()} className={dislikeColor}>{dislike}</button>

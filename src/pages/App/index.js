@@ -8,15 +8,42 @@ import courflixImg from '../../assets/courflixImg.png';
 
 
 class App extends React.Component {
+  constructor(props){
+    super(props);
+
+    this.state = {
+      miLista: []
+    }
+  }
+  
+  componentDidMount(){
+    let infoList = [];
+    const stringiedToList = localStorage.getItem("miList");
+    if(stringiedToList){
+      const toList = JSON.parse(stringiedToList);
+      
+      toList.map((item) => {
+        infoList.push(item)
+      })
+      console.log(infoList)
+    }
+
+    this.setState({
+      miLista: infoList
+    })
+  }
  
   render() {
     const { imgPortada, title, desc, year, age, time } = courflix[1].continuarViendo[6];
-    console.log()
+    const { location } = this.props;
+    const { miLista } = this.state;
+    console.log(miLista)
+   
     return(
       <React.Fragment>
-        <Navbar img={courflixImg} inicio="Inicio" series="Series" cont="Continuar viendo" agreg="Agregado recientemente" list="Mi lista" menuH={true}/>
-        <Hero img={imgPortada} title={title} desc={desc} year={year} age={age} time={time} linkReproducir={true}/>
-        <Carousel showCarousel={true} titleSerie="Series" infinite={true} related={true} titleCont="Continuar viendo contenido de Natasha" titleAgr="Último lanzamiento" dataS={courflix[1].series} dataC={courflix[1].continuarViendo} dataA={courflix[1].agregadasRecientemente}/>
+        <Navbar infoPath1={location.pathname} img={courflixImg} inicio="Inicio" series="Series" cont="Continuar viendo" agreg="Agregado recientemente" list="Mi lista" />
+        <Hero infoPath1={location.pathname} img={imgPortada} title={title} desc={desc} year={year} age={age} time={time} />
+        <Carousel infoPath1={location.pathname} infinite={true} titleSerie="Series" titleCont="Continuar viendo contenido de Natasha" titleAgr="Último lanzamiento" titleList="Mi lista" dataS={courflix[1].series} dataC={courflix[1].continuarViendo} dataA={courflix[1].agregadasRecientemente} miLista={miLista}/>
       </React.Fragment>
     )
   }

@@ -25,7 +25,8 @@ class SeriesyPeliculas extends React.Component {
       types: "",
       temporada: "",
       movies: "",
-      titleCarousel: ""
+      titleCarousel: "",
+      imgC: ""
     }
   }
 
@@ -47,23 +48,24 @@ class SeriesyPeliculas extends React.Component {
       desc: filtered[0].desc,
       types: filtered[0].type,
       temporada: filtered[0].temporada1,
-      movies: filterMovies
+      movies: filterMovies,
+      info: filtered[0]
     }) 
   }
   
   render() {
-    const { img, title, parati, year, age, time, desc, types, temporada, movies } = this.state;
+    const { img, title, parati, year, age, time, desc, types, temporada, movies, info } = this.state;
     const { location } = this.props
     const moviesArr = []
     moviesArr.push(movies);
-    console.log(location)
+    
     return(
       <React.Fragment>
         <Link to="/">
         <Navbar img={courflixImg}/>
         </Link>
-        <Hero buttonReproducir={true} infoPath={location.pathname} img={img} title={title} desc={desc} parati={parati} year2={year} age2={age} time2={time} like={<FontAwesomeIcon icon={faThumbsUp} />} dislike={<FontAwesomeIcon icon={faThumbsDown}  />}/>
-        <Carousel infoPath={location.pathname} showSecond={true} infinite={false} types={types} types={types} temporada={temporada} movies={moviesArr} titleSerie="Temporada 1" titleMovie="Películas recomendadas"/>  
+        <Hero infoPath2={location.pathname} info={info} img={img} title={title} desc={desc} parati={parati} year2={year} age2={age} time2={time} like={<FontAwesomeIcon icon={faThumbsUp} />} dislike={<FontAwesomeIcon icon={faThumbsDown}  />}/>
+        <Carousel infoPath2={location.pathname} infinite={false} types={types} types={types} temporada={temporada} movies={moviesArr} titleSerie="Temporada 1" titleMovie="Películas recomendadas"/>  
       </React.Fragment>
     )
   }
