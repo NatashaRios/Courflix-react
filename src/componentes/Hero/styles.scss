@@ -31,7 +31,7 @@ $mobile: 480px;
     }
 
     @media screen and (max-width: $mobile) {
-      padding-top: 5rem;
+      padding-top: 7rem;
     }
   }
 
@@ -92,6 +92,7 @@ $mobile: 480px;
 
     @media screen and (max-width: $mobile) {
       padding: 1rem 2rem 1rem 2rem;
+      margin-top: 1rem;
     }
   }
 
@@ -110,10 +111,6 @@ $mobile: 480px;
       margin-left: 1rem;
     }
   }
-
- 
-
- 
 
   .desc-hero{
     width: 30rem;

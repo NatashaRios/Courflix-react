@@ -4,7 +4,7 @@ import './styles.scss';
 
 class Carousel extends React.Component {
   render() {
-    const { titleSerie, titleCont, titleAgr, dataS, dataC, dataA, types, temporada, movies,  titleMovie, showCarousel, showSecond, infoPath } = this.props;
+    const { titleSerie, titleCont, titleAgr, dataS, dataC, dataA, types, temporada, movies,  titleMovie, showCarousel, showSecond, infoPath, infinite, related } = this.props;
     
     return(
       <React.Fragment>
@@ -12,15 +12,15 @@ class Carousel extends React.Component {
             <React.Fragment>
                 <div className="content-carousel content-series">
                   <h2 className="title-carousel" id="series">{titleSerie}</h2>
-                  <InnerCarousel data={dataS} showCarousel={showCarousel}/>
+                  <InnerCarousel data={dataS} showCarousel={showCarousel} infinite={infinite}/>
                 </div>
                 <div className="content-carousel">
                   <h2 className="title-carousel" id="continuarViendo">{titleCont}</h2>
-                  <InnerCarousel showLine={true} data={dataC} showCarousel={showCarousel}/>
+                  <InnerCarousel showLine={true} data={dataC} showCarousel={showCarousel} infinite={infinite}/>
                 </div>
                 <div className="content-carousel content-agregado">
                   <h2 className="title-carousel" id="agregadoRecientemente">{titleAgr}</h2>
-                  <InnerCarousel data={dataA} showCarousel={showCarousel}/>
+                  <InnerCarousel data={dataA} showCarousel={showCarousel} infinite={infinite}/>
                 </div>      
               </React.Fragment>
           )}
@@ -32,9 +32,10 @@ class Carousel extends React.Component {
                 <h2 className="title-carousel">{titleSerie}</h2>
                 : <h2 className="title-carousel">{titleMovie}</h2> 
                 } 
-                <InnerCarousel temporada={temporada} infoPath={infoPath} />
-                <InnerCarousel movies={movies[0]} infoPath={infoPath}/> 
-                
+                {types == "serie" ? 
+                  <InnerCarousel temporada={temporada} infoPath={infoPath} infinite={infinite} related={related}/>
+                  : <InnerCarousel movies={movies[0]} infoPath={infoPath} infinite={infinite} related={related}/> 
+                }
               </div>
             </React.Fragment>
           )} 

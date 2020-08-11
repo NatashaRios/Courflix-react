@@ -63,7 +63,7 @@ class SeriesyPeliculas extends React.Component {
         <Navbar img={courflixImg}/>
         </Link>
         <Hero infoPath={location.pathname} img={img} title={title} desc={desc} parati={parati} year2={year} age2={age} time2={time} like={<FontAwesomeIcon icon={faThumbsUp} />} dislike={<FontAwesomeIcon icon={faThumbsDown}  />}/>
-        <Carousel infoPath={location.pathname} showSecond={true} types={types} types={types} temporada={temporada} movies={moviesArr} titleSerie="Temporada 1" titleMovie="Películas recomendadas"/>  
+        <Carousel infoPath={location.pathname} showSecond={true} infinite={false} related={true} types={types} types={types} temporada={temporada} movies={moviesArr} titleSerie="Temporada 1" titleMovie="Películas recomendadas"/>  
       </React.Fragment>
     )
   }

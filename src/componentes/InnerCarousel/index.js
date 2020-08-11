@@ -5,15 +5,16 @@ import './styles.scss';
 
 
 class InnerCarousel extends React.Component {
-   /* constructor(props) {
+    constructor(props) {
     super(props);
 
     this.settings = {
+      
       slidesToShow: 4,
       slideToScroll: 4,
       variableWidth: true,
       accesibility: true,
-      infinit: true,
+      infinite: props.infinite,
       arrows: true,
       responsive: [
         {
@@ -22,35 +23,17 @@ class InnerCarousel extends React.Component {
             slidesToShow: 1,
             slideToScroll: 1,
           }
-        }
+        },
+        
       ]
     }
-  }  */
+  }  
   render() {
     const { data, showLine, temporada, showCarousel, movies, infoPath } = this.props;
-
-    const settings = {
-      slidesToShow: 4,
-      slideToScroll: 4,
-      variableWidth: true,
-      accesibility: true,
-      infinit: true,
-      arrows: true,
-      responsive: [
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1,
-            slideToScroll: 1,
-          }
-        }
-
-      ]
-    }
-    
+    console.log(this.props.infinite)
     return(
       <React.Fragment>
-        <Slider {...settings}>
+        <Slider {...this.settings}>
            { showCarousel && ( data.map((peliculayserie, key) => {
             return(
               <div className="wrapper-innercarousel" key={key}>
@@ -83,7 +66,7 @@ class InnerCarousel extends React.Component {
               <div className="wrapper-innercarousel-second" key={key}>
                 <img className="img-innercarousel-second" src={movie.imgCarousel} />
                 <div className="text-second">
-                  <p className="title-carousel-second">{movie.title}</p>
+                  <p className="title-innercarousel-second">{movie.title}</p>
                   <p className="desc-innercarousel-second">{movie.desc}</p>
                 </div>
               </div>

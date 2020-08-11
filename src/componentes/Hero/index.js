@@ -10,33 +10,11 @@ class Hero extends React.Component {
     this.state = {
       likeColor: "grey",
       dislikeColor: "grey"
-      /* likeActive: false,
-      dislikeActive: false */
     }
   }
 
  handleLike() {
-   const { likeActive, likeColor } = this.state;
-  /*  if(likeActive == false) {
-    if(likeActive == false && likeColor == "grey") {
-      this.setState({
-        likeCOlor: "green",
-        likeActive: true,
-      })
-    }else{
-      this.setState({
-        likeColor: "grey",
-        likeActive: false
-      })
-    }
-   } else {
-    this.setState({
-      dislikeColor: "grey",
-      dislikeActive: false,
-      likeColor: "green",
-      likeActive: false
-    })
-   }  */
+   const { likeColor } = this.state;
 
    if(likeColor == "grey"){
      this.setState({
@@ -51,27 +29,8 @@ class Hero extends React.Component {
  }
 
  handleDislike(){
-   const { dislikeActive, dislikeColor } = this.state;
-  /*  if(dislikeActive == false){
-    if(dislikeActive == false && dislikeColor == "grey") {
-      this.setState({
-        dislikeColor: "red",
-        dislikeActive: true,
-      })
-    }else{
-      this.setState({
-        dislikeColor: "grey",
-        dislikeActive: false
-      })
-    }
-   }else {
-      this.setState({
-        dislikeColor: "red",
-        dislikeActive: false,
-        likeColor: "grey",
-        likeActive: false
-      })
-   }   */
+   const { dislikeColor } = this.state;
+
    if(dislikeColor == "grey"){
      this.setState({
        likeColor: "grey",
@@ -83,6 +42,7 @@ class Hero extends React.Component {
      })
    }
  }
+ 
 
   render() {
     const { img, title, desc, year, age, time, parati, year2, age2, time2, like, dislike, infoPath } = this.props;
@@ -100,7 +60,7 @@ class Hero extends React.Component {
         <p className="hero-second age-hero-second">{age2}</p>
         <p className="hero-second time-hero-second">{time2}</p>
         <div>
-        <button className="button-hero reproducir-hero">Reproducir</button>
+        <button className="button-hero reproducir-hero" >Reproducir</button>
         <button className="button-hero lista-hero">+ mi lista</button>
         {infoPath && (
           <React.Fragment>
