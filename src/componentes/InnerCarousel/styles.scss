@@ -75,7 +75,10 @@ $mobile: 480px;
   height: 6.3rem;
 
   @media screen and (max-width: $mobile){
-    flex-direction: column;
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0 1rem 0.5rem;
   }
 
   .img-innercarousel-second{
@@ -83,16 +86,41 @@ $mobile: 480px;
     height: 12rem;
     object-fit: cover;
 
+    @media screen and (max-width: $ipadpro){
+      width: 20rem;
+      height: 10rem;
+    }
+
+    @media screen and (max-width: $mobile){
+      width: 12rem;
+      height: 7rem;
+    }
   }
   .text-second{
+    width: 22rem;
+    @media screen and (max-width: $ipadpro){
+      width: 20rem;
+      height: 8rem;
+    }
+
+    @media screen and (max-width: $mobile){
+      font-size: 0.5em;
+      width: 10rem;
+    }
     .title-innercarousel-second{
-      width: 22rem;
       font-weight: bold;
       margin: 1rem 0 1rem 0;
+
+      @media screen and (max-width: $mobile){
+        margin: 0.8rem 0 0.5rem 0;
+      }
     }
     .desc-innercarousel-second{
-      width: 22rem;
       line-height: 1.5rem;
+
+      @media screen and (max-width: $mobile){
+        line-height: 0.6rem;
+      }
     }
   }
 

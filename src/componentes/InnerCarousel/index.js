@@ -9,9 +9,8 @@ class InnerCarousel extends React.Component {
     super(props);
 
     this.settings = {
-      
-      slidesToShow: 4,
-      slideToScroll: 4,
+      slidesToShow: props.related? 4 : 3,
+      slideToScroll: 3,
       variableWidth: true,
       accesibility: true,
       infinite: props.infinite,
@@ -24,13 +23,17 @@ class InnerCarousel extends React.Component {
             slideToScroll: 1,
           }
         },
+        {
+          breakpoint: 480,
+          settings: props.related ? {slidesToShow: 1, slideToScroll: 1} : "unslick"
+        }
         
       ]
     }
   }  
   render() {
     const { data, showLine, temporada, showCarousel, movies, infoPath } = this.props;
-    console.log(this.props.infinite)
+    console.log(this.props.related)
     return(
       <React.Fragment>
         <Slider {...this.settings}>

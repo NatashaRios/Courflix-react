@@ -12,15 +12,15 @@ class Carousel extends React.Component {
             <React.Fragment>
                 <div className="content-carousel content-series">
                   <h2 className="title-carousel" id="series">{titleSerie}</h2>
-                  <InnerCarousel data={dataS} showCarousel={showCarousel} infinite={infinite}/>
+                  <InnerCarousel data={dataS} showCarousel={showCarousel} infinite={infinite} related={related}/>
                 </div>
                 <div className="content-carousel">
                   <h2 className="title-carousel" id="continuarViendo">{titleCont}</h2>
-                  <InnerCarousel showLine={true} data={dataC} showCarousel={showCarousel} infinite={infinite}/>
+                  <InnerCarousel showLine={true} data={dataC} showCarousel={showCarousel} infinite={infinite} related={related}/>
                 </div>
                 <div className="content-carousel content-agregado">
                   <h2 className="title-carousel" id="agregadoRecientemente">{titleAgr}</h2>
-                  <InnerCarousel data={dataA} showCarousel={showCarousel} infinite={infinite}/>
+                  <InnerCarousel data={dataA} showCarousel={showCarousel} infinite={infinite} related={related}/>
                 </div>      
               </React.Fragment>
           )}
@@ -33,8 +33,8 @@ class Carousel extends React.Component {
                 : <h2 className="title-carousel">{titleMovie}</h2> 
                 } 
                 {types == "serie" ? 
-                  <InnerCarousel temporada={temporada} infoPath={infoPath} infinite={infinite} related={related}/>
-                  : <InnerCarousel movies={movies[0]} infoPath={infoPath} infinite={infinite} related={related}/> 
+                  <InnerCarousel temporada={temporada} infoPath={infoPath} infinite={infinite} />
+                  : <InnerCarousel movies={movies[0]} infoPath={infoPath} infinite={infinite} /> 
                 }
               </div>
             </React.Fragment>

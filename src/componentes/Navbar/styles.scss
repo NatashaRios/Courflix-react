@@ -10,6 +10,10 @@ $mobile: 480px;
   display: flex;
   z-index: 100;
 
+  @media screen and (max-width: $mobile) {
+    height: 3rem;
+  }
+
   .div-menu{
     display: none;
     
@@ -49,7 +53,8 @@ $mobile: 480px;
       .fa-bars{
         color: white;
         font-size: 2.2em;
-        margin-top: 0.5rem;
+        margin-top: 0.4rem;
+        width: 1.5rem;
       }
     }
   }
@@ -60,6 +65,8 @@ $mobile: 480px;
 
     @media screen and (max-width: $mobile) {
       margin-left: 3rem;
+      width: 5rem;
+      height: 1.4rem;
     }
   }
   

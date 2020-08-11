@@ -15,8 +15,8 @@ class App extends React.Component {
     return(
       <React.Fragment>
         <Navbar img={courflixImg} inicio="Inicio" series="Series" cont="Continuar viendo" agreg="Agregado recientemente" list="Mi lista" menuH={true}/>
-        <Hero img={imgPortada} title={title} desc={desc} year={year} age={age} time={time} handleCallback={() => this.handleCallback()}/>
-        <Carousel showCarousel={true} titleSerie="Series" infinite={true} titleCont="Continuar viendo contenido de Natasha" titleAgr="Último lanzamiento" dataS={courflix[1].series} dataC={courflix[1].continuarViendo} dataA={courflix[1].agregadasRecientemente}/>
+        <Hero img={imgPortada} title={title} desc={desc} year={year} age={age} time={time} linkReproducir={true}/>
+        <Carousel showCarousel={true} titleSerie="Series" infinite={true} related={true} titleCont="Continuar viendo contenido de Natasha" titleAgr="Último lanzamiento" dataS={courflix[1].series} dataC={courflix[1].continuarViendo} dataA={courflix[1].agregadasRecientemente}/>
       </React.Fragment>
     )
   }
