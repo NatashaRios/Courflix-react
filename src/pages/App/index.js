@@ -16,6 +16,7 @@ class App extends React.Component {
     }
   }
   
+  //Traer la info del Local Storage y guardarlo en la sección mi lista.
   componentDidMount(){
     let infoList = [];
     const stringiedToList = localStorage.getItem("miList");
@@ -25,7 +26,6 @@ class App extends React.Component {
       toList.map((item) => {
         infoList.push(item)
       })
-      console.log(infoList)
     }
 
     this.setState({
@@ -37,8 +37,6 @@ class App extends React.Component {
     const { imgPortada, title, desc, year, age, time } = courflix[1].continuarViendo[6];
     const { location } = this.props;
     const { miLista } = this.state;
-    console.log(miLista)
-   
     return(
       <React.Fragment>
         <Navbar infoPath1={location.pathname} img={courflixImg} inicio="Inicio" series="Series" cont="Continuar viendo" agreg="Agregado recientemente" list="Mi lista" />

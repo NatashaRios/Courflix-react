@@ -13,6 +13,7 @@ class Hero extends React.Component {
     }
   }
 
+//Al clickear en like se pone en verde y al volver a clickear en gris
  handleLike() {
    const { likeColor } = this.state;
 
@@ -28,6 +29,7 @@ class Hero extends React.Component {
    }
  }
 
+ //Al clickear en dislike se pone en rojo y al volver a clickear en gris
  handleDislike(){
    const { dislikeColor } = this.state;
 
@@ -43,18 +45,20 @@ class Hero extends React.Component {
    }
  }
 
+ //Trae la info de la serie o película a la que hayan entrado y lo guarda en Local Storage al clickear "+ mi lista".
  handleClick(info) {
    const stringifiedList = localStorage.getItem("miList");
    if(stringifiedList){
      const parsedList = JSON.parse(stringifiedList);
-     const included = parsedList.some(peliculayserie => {
-       return info.id == peliculayserie.id
+      const included = parsedList.some(peliculayserie => {
+      return info.id == peliculayserie.id;
      })
-     if(!included) {
+     
+     if(!included) { 
       parsedList.push(info);
       const newList = JSON.stringify(parsedList);
       localStorage.setItem("miList", newList)
-     } return
+      } return 
    } else {
      const parsedList = [info];
      const newList = JSON.stringify(parsedList);
@@ -66,7 +70,7 @@ class Hero extends React.Component {
   render() {
     const { img, title, desc, year, age, time, parati, year2, age2, time2, like, dislike, infoPath1, infoPath2, info } = this.props;
     const { likeColor, dislikeColor } = this.state;
-   console.log(info)
+    
     return(
       <div className="wrapper-hero" id="hero" style={{ backgroundImage: `url(${img})` }}>
         <h1 className="title-hero"> {title} </h1>
@@ -81,16 +85,18 @@ class Hero extends React.Component {
         {infoPath1 && (<Link to="/seriesypeliculas/23">
           <React.Fragment>
           <button className="button-hero reproducir-hero" >Reproducir</button>
+          <button className="button-hero lista-hero">+ mi lista</button>
           </React.Fragment>
         </Link>)}
 
         {infoPath2 && (
           <React.Fragment>
             <button className="button-hero reproducir-hero" >Reproducir</button>
+            <button className="button-hero lista-hero" onClick={() => this.handleClick(info)}>+ mi lista</button>
           </React.Fragment>
         )}
      
-        <button className="button-hero lista-hero" onClick={() => this.handleClick(info)}>+ mi lista</button>
+        
         {infoPath2 && (
           <React.Fragment>
             <button onClick={() => this.handleLike()} className={likeColor}>{like}</button>
@@ -107,4 +113,3 @@ class Hero extends React.Component {
 
 export default Hero;
 
-/* style={{backgroundImage:`url(${seriesypeliculas[0].img})`}} */

@@ -26,10 +26,11 @@ class SeriesyPeliculas extends React.Component {
       temporada: "",
       movies: "",
       titleCarousel: "",
-      imgC: ""
+      info: ""
     }
   }
 
+  //Ruta dinámica y traer toda la info de la película o serie clickeada
   componentDidMount(){
     const datas = [...courflix[1].series,...courflix[1].continuarViendo,...courflix[1].agregadasRecientemente]
     const filtered = datas.filter((data)=> {
@@ -65,7 +66,7 @@ class SeriesyPeliculas extends React.Component {
         <Navbar img={courflixImg}/>
         </Link>
         <Hero infoPath2={location.pathname} info={info} img={img} title={title} desc={desc} parati={parati} year2={year} age2={age} time2={time} like={<FontAwesomeIcon icon={faThumbsUp} />} dislike={<FontAwesomeIcon icon={faThumbsDown}  />}/>
-        <Carousel infoPath2={location.pathname} infinite={false} types={types} types={types} temporada={temporada} movies={moviesArr} titleSerie="Temporada 1" titleMovie="Películas recomendadas"/>  
+        <Carousel infoPath2={location.pathname} infinite={false} types={types}  temporada={temporada} movies={moviesArr} titleSerie="Temporada 1" titleMovie="Películas recomendadas"/>  
       </React.Fragment>
     )
   }

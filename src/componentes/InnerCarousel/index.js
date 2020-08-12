@@ -9,7 +9,7 @@ class InnerCarousel extends React.Component {
     super(props);
 
     this.settings = {
-      slidesToShow: props.infoPath1 && props.data ? 4 : 3,
+      slidesToShow: 3,
       slideToScroll: 3,
       variableWidth: true,
       accesibility: true,
@@ -17,7 +17,7 @@ class InnerCarousel extends React.Component {
       arrows: true,
       responsive: [
         {
-          breakpoint: 768,
+          breakpoint: 1024,
           settings: {
             slidesToShow: 1,
             slideToScroll: 1,
@@ -32,30 +32,16 @@ class InnerCarousel extends React.Component {
     }
   }  
   render() {
-    const { data, showLine, temporada, movies, infoPath1, miLista } = this.props;
-    console.log(miLista)
+    const { data, showLine, temporada, movies, infoPath1 } = this.props;
     
     return(
       <React.Fragment>
-        <Slider {...this.settings}>
-            {infoPath1 && miLista && ( miLista.map((list, key) => {
-           return(
-            <div className="wrapper-innercarousel-list" key={key}>
-           <Link to={`/seriesypeliculas/${list.id}`}>
-           <img  className="img-innercarousel" src={list.imgCarousel}/>
-           <img className="img-innercarousel-mobile" src={list.imgMobile}/>
-           </Link>
-           </div>
-           )
-         })
-           
-         )}  
- 
-           { infoPath1 && data &&( data.map((peliculayserie, key) => {
+        <Slider {...this.settings}> 
+           { infoPath1 && ( data.map((peliculayserie, key) => {
             return(
               <div className="wrapper-innercarousel" key={key}>
                 <Link to={`/seriesypeliculas/${peliculayserie.id}`}>
-                <img  className="img-innercarousel" src={peliculayserie.imgCarousel}/>
+                <img  className="img-innercarousel" src={peliculayserie.imgCarousel} />
                 <img className="img-innercarousel-mobile" src={peliculayserie.imgMobile}/>
                 </Link>
                 {showLine && (

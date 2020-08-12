@@ -21,9 +21,15 @@ $mobile: 480px;
     }
   }
 }
+.content-list{
+  margin-bottom: 12rem;
 
+  @media screen and (max-width: $mobile){
+    margin-bottom: 4rem;
+  }
+}
 .content-series{
-  margin-bottom: 10rem;
+  margin-bottom: 12rem;
   
   @media screen and (max-width: $mobile){
     margin-bottom: 4rem;
@@ -31,7 +37,7 @@ $mobile: 480px;
 }
 
 .content-agregado{
-  margin-top: 10rem;
+  margin-top: 12rem;
 
   @media screen and (max-width: $mobile){
     margin-top: 4rem;

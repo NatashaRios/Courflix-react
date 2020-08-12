@@ -43,7 +43,7 @@ $mobile: 480px;
         }
       }
     }
-    .menu-hamburger{
+    /* .menu-hamburger{
       background-color: transparent;
       border: rgba(7, 7, 7, 0.5);
       margin-left: 0.5rem;
@@ -55,8 +55,9 @@ $mobile: 480px;
         font-size: 2.2em;
         margin-top: 0.4rem;
         width: 1.5rem;
+        z-index: 999;
       }
-    }
+    } */
   }
   
   .img-courflix{
@@ -95,3 +96,24 @@ $mobile: 480px;
     }//navbar
   }//img
 }//wrapper
+
+.bm-burger-button {
+  position: fixed;
+  width: 1.5rem;
+  height: 1.3rem;
+  left: 0.5rem;
+  top: 1rem;
+}
+
+.bm-burger-bars {
+  background: white;
+}
+
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
