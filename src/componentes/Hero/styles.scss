@@ -75,7 +75,8 @@ $mobile: 480px;
 
   .button-hero{
     color: white;
-    font-size: 0.8em;
+    font-size: 1.2em;
+    font-weight: bold;
     border-radius: 9px;
     background-color: rgba(126, 121, 121, 0.6);
     border: rgba(126, 121, 121, 0.6);
@@ -88,6 +89,8 @@ $mobile: 480px;
 
     @media screen and (max-width: $ipad) {
       padding: 1rem 2.5rem 1rem 2.5rem;
+      font-size: 1em;
+      letter-spacing: 0.3px;
     }
 
     @media screen and (max-width: $mobile) {
