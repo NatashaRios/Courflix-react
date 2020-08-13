@@ -22,10 +22,10 @@ $mobile: 480px;
   }
 }
 .content-list{
-  margin-bottom: 12rem;
+  margin-top: 12rem;
 
   @media screen and (max-width: $mobile){
-    margin-bottom: 4rem;
+    margin-top: 4rem;
   }
 }
 .content-series{

@@ -10,10 +10,6 @@ class Carousel extends React.Component {
       <React.Fragment>
           {infoPath1 && (
             <React.Fragment>
-                <div className="content-carousel content-list">
-                  <h2 className="title-carousel" id="lista">{titleList}</h2>
-                  <InnerCarousel infoPath1={infoPath1} infinite={false} data={miLista}/>
-                </div>
                 <div className="content-carousel content-series">
                   <h2 className="title-carousel" id="series">{titleSerie}</h2>
                   <InnerCarousel data={dataS} infoPath1={infoPath1} infinite={infinite}/>
@@ -25,7 +21,11 @@ class Carousel extends React.Component {
                 <div className="content-carousel content-agregado">
                   <h2 className="title-carousel" id="agregadoRecientemente">{titleAgr}</h2>
                   <InnerCarousel data={dataA} infoPath1={infoPath1} infinite={infinite}/>
-                </div>      
+                </div> 
+                <div className="content-carousel content-list">
+                  <h2 className="title-carousel" id="lista">{titleList}</h2>
+                  <InnerCarousel infoPath1={infoPath1} infinite={false} data={miLista}/>
+                </div>     
               </React.Fragment>
           )}
            
