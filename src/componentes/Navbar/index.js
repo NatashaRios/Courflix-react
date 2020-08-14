@@ -32,7 +32,7 @@ class Navbar extends React.Component {
           <Menu className="menu-navbar" isOpen={this.state.menuOpen} onStateChange={(state) => this.handleStateChange(state)}>
           <ul className="menu-navbar-ul">
             <li className="menu-navbar-li"><Link className="menu-link-navbar" onClick={() => this.closeMenu()} activeClass="active" to="hero" smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>{inicio}</Link></li>
-            <li className="menu-navbar-li"><Link className="menu-link-navbar" onClick={() => this.closeMenu()} activeClass="active" to="series" smooth={true} offset={-70} duration={500} onSetActive={this.handleSetActive}>{series}</Link></li>
+            <li className="menu-navbar-li"><Link className="menu-link-navbar" onClick={() => this.closeMenu()} activeClass="active" to="series" smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>{series}</Link></li>
             <li className="menu-navbar-li"><Link className="menu-link-navbar" onClick={() => this.closeMenu()} activeClass="active" to="continuarViendo" smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>{cont}</Link></li>
             <li className="menu-navbar-li"><Link  className="menu-link-navbar" onClick={() => this.closeMenu()} activeClass="active" to="agregadoRecientemente" smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>{agreg}</Link></li>
             <li className="menu-navbar-li"><Link className="menu-link-navbar" onClick={() => this.closeMenu()} activeClass="active" to="lista" smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>{list}</Link></li>
@@ -47,11 +47,11 @@ class Navbar extends React.Component {
         
         <nav className="navbar">
         <ul className="navbar-ul">
-          <li className="navbar-li"><Link activeClass="active" className="link-navbar" to="hero" smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>{inicio}</Link></li>
-          <li className="navbar-li"><Link activeClass="active" className="link-navbar" to="series" smooth={true} offset={-70} duration={500} onSetActive={this.handleSetActive}>{series}</Link></li>
-          <li className="navbar-li"><Link activeClass="active" className="link-navbar" to="continuarViendo" smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>{cont}</Link></li>
-          <li className="navbar-li"><Link activeClass="active" className="link-navbar" to="agregadoRecientemente" smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>{agreg}</Link></li>
-          <li className="navbar-li"><Link activeClass="active" className="link-navbar" to="lista" smooth={true} offset={-70} duration={500} onSetActive={this.handleSetActive}>{list}</Link></li>
+          <li className="navbar-li"><Link activeClass="active" className="link-navbar" to="hero" smooth={true} offset={50} duration={700} onSetActive={this.handleSetActive}>{inicio}</Link></li>
+          <li className="navbar-li"><Link activeClass="active" className="link-navbar" to="series" smooth={true} offset={-70} duration={700} onSetActive={this.handleSetActive}>{series}</Link></li>
+          <li className="navbar-li"><Link activeClass="active" className="link-navbar" to="continuarViendo" smooth={true} offset={-70} duration={700} onSetActive={this.handleSetActive}>{cont}</Link></li>
+          <li className="navbar-li"><Link activeClass="active" className="link-navbar" to="agregadoRecientemente" smooth={true} offset={50} duration={700} onSetActive={this.handleSetActive}>{agreg}</Link></li>
+          <li className="navbar-li"><Link activeClass="active" className="link-navbar" to="lista" smooth={true} offset={50} duration={700} onSetActive={this.handleSetActive}>{list}</Link></li>
         </ul>
         </nav>
       </header>
