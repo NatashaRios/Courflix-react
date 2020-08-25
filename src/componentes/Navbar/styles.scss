@@ -23,10 +23,10 @@ $mobile: 480px;
 
     .menu-navbar{
       background-color: rgba(7, 7, 7, 0.5);
-      
+      margin-top: 3rem;
 
       .menu-navbar-ul{
-        margin-top: 4rem;
+       
 
         .menu-navbar-li{
           margin-top: 1rem;
@@ -43,21 +43,6 @@ $mobile: 480px;
         }
       }
     }
-    /* .menu-hamburger{
-      background-color: transparent;
-      border: rgba(7, 7, 7, 0.5);
-      margin-left: 0.5rem;
-      height: 1rem;
-      width: 1rem;
-      
-      .fa-bars{
-        color: white;
-        font-size: 2.2em;
-        margin-top: 0.4rem;
-        width: 1.5rem;
-        z-index: 999;
-      }
-    } */
   }
   
   .img-courflix{
@@ -90,6 +75,7 @@ $mobile: 480px;
           text-decoration: none;
           color: white;
           font-size: 1.1em;
+          cursor:context-menu;
           
         }//link
       }//li

@@ -41,7 +41,7 @@ class App extends React.Component {
       <React.Fragment>
         <Navbar infoPath1={location.pathname} img={courflixImg} inicio="Inicio" series="Series" cont="Continuar viendo" agreg="Agregado recientemente" list="Mi lista" />
         <Hero infoPath1={location.pathname} img={imgPortada} title={title} desc={desc} year={year} age={age} time={time} />
-        <Carousel infoPath1={location.pathname} infinite={true} titleSerie="Series" titleCont="Continuar viendo contenido de Natasha" titleAgr="Último lanzamiento" titleList="Mi lista" dataS={courflix[1].series} dataC={courflix[1].continuarViendo} dataA={courflix[1].agregadasRecientemente} miLista={miLista}/>
+        <Carousel infoPath1={location.pathname} infinite={true} titleSerie="Series" titleCont="Continuar viendo contenido de Natasha" titleAgr="Último lanzamiento" titleList="Mi lista" dataS={courflix[1].series} dataC={courflix[1].continuarViendo} dataA={courflix[1].agregadasRecientemente}  miLista={miLista}/>
       </React.Fragment>
     )
   }
